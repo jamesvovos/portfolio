@@ -17,14 +17,6 @@ export default function Navbar() {
               .resume()
             </a>
           </li>
-          <li>
-            <a
-              className="bg-customblue-50 text-white px-4 py-2 rounded-md ml-8"
-              href="#"
-            >
-              .contact()
-            </a>
-          </li>
         </ul>
       </nav>
     </div>
