@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import ProjectItem from "./components/projectItem";
+import Hero from "./components/hero";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillTwitterCircle,
@@ -25,16 +26,7 @@ export default function Home() {
       <main className="bg-black px-10">
         <section className="min-h-screen">
           <Navbar />
-          <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-customblue-50 font font-medium">
-              James Vovos
-            </h2>
-            <h3 className="text-2xl py-2">Creative Software Engineer.</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
-              Graduate Software Engineer studying Computer Science at Swinburne
-              University.
-            </p>
-          </div>
+          <Hero />
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillTwitterCircle />
             <AiFillLinkedin />
