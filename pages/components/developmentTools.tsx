@@ -1,21 +1,21 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Image from "next/image";
-import ReactLogo from "../../public/assets/logos/react-logo.png";
-import GraphQlLogo from "../../public/assets/logos/graphql-logo.png";
-import MapboxLogo from "../../public/assets/logos/mapbox-logo.jpg";
-import AwsLogo from "../../public/assets/logos/aws-logo.png";
-import FigmaLogo from "../../public/assets/logos/figma-logo.png";
-import DynamoDbLogo from "../../public/assets/logos/dynamo-db-logo.png";
-import AmplifyLogo from "../../public/assets/logos/amplify-logo.jpg";
-import FirebaseLogo from "../../public/assets/logos/firebase-logo.png";
-import RaylibLogo from "../../public/assets/logos/raylib-logo.png";
-import AndroidStudioLogo from "../../public/assets/logos/android-studio-logo.jpg";
-import MySqlLogo from "../../public/assets/logos/mysql-logo.png";
-import NextJsLogo from "../../public/assets/logos/next-js-logo.jpg";
-import PowerBiLogo from "../../public/assets/logos/power-bi-logo.jpg";
-import JiraLogo from "../../public/assets/logos/jira-logo.png";
-import GithubLogo from "../../public/assets/logos/github-logo.png";
+import ReactLogo from "../../public/assets/logos/tools/react-logo.png";
+import GraphQlLogo from "../../public/assets/logos/tools/graphql-logo.png";
+import MapboxLogo from "../../public/assets/logos/tools/mapbox-logo.jpg";
+import AwsLogo from "../../public/assets/logos/tools/aws-logo.png";
+import FigmaLogo from "../../public/assets/logos/tools/figma-logo.png";
+import DynamoDbLogo from "../../public/assets/logos/tools/dynamo-db-logo.png";
+import AmplifyLogo from "../../public/assets/logos/tools/amplify-logo.jpg";
+import FirebaseLogo from "../../public/assets/logos/tools/firebase-logo.png";
+import RaylibLogo from "../../public/assets/logos/tools/raylib-logo.png";
+import AndroidStudioLogo from "../../public/assets/logos/tools/android-studio-logo.jpg";
+import MySqlLogo from "../../public/assets/logos/tools/mysql-logo.png";
+import NextJsLogo from "../../public/assets/logos/tools/next-js-logo.jpg";
+import PowerBiLogo from "../../public/assets/logos/tools/power-bi-logo.jpg";
+import JiraLogo from "../../public/assets/logos/tools/jira-logo.png";
+import GithubLogo from "../../public/assets/logos/tools/github-logo.png";
 
 export default function DevelopmentTools() {
   const [text, count] = useTypewriter({
