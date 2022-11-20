@@ -20,7 +20,7 @@ export default function Hero({}: Props) {
         James Vovos
       </h2>
       <h3 className="text-2xl py-2">Creative Software Engineer.</h3>
-      <p className="text-md py-5 leading-8 text-white">
+      <p className="text-md py-5 leading-8 text-white font-sourcecode">
         {text}
         <Cursor cursorColor="#0099FF" />
       </p>

@@ -22,7 +22,16 @@ a {
 @font-face {
   font-family: 'burtons';
   src: url('../public/Burtons.otf');
+}
 
+@font-face {
+  font-family: 'sourcecode';
+  src: url('../public/SourceCodePro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'drukwideweb';
+  src: url('../public/Druk-Wide-Bold.ttf');
 }
 
 @media (prefers-color-scheme: dark) {

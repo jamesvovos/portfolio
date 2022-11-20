@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: "burtons",
+        sourcecode: "sourcecode",
+        drukwideweb: "drukwideweb",
       },
       colors: {
         customblue: {
