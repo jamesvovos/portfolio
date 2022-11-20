@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import ProjectItem from "./components/projectItem";
+import DevelopmentTools from "./components/developmentTools";
 import Hero from "./components/hero";
 import ProjectCard from "./components/projectCard";
 import { BsFillMoonStarsFill } from "react-icons/bs";
@@ -69,7 +70,7 @@ export default function Home() {
               title="Documentation"
               text="Find in-depth information about Next.js features and API."
             />
-            <ProjectCard />
+            <DevelopmentTools />
           </div>
           <div>
             <Footer />
