@@ -24,7 +24,7 @@ export default function Home() {
           <Hero />
         </section>
 
-        {/* Create "About" component/page later */}
+        {/* Create "About" page/component */}
         <section>
           <div>
             <h3 className="text-3xl py-1">About Me</h3>

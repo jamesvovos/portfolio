@@ -19,7 +19,7 @@ import GithubLogo from "../../public/assets/logos/tools/github-logo.png";
 
 export default function DevelopmentTools() {
   const [text, count] = useTypewriter({
-    words: ["Development Tools"],
+    words: ["Dev tools I've worked with:"],
     loop: true,
     delaySpeed: 2000,
   });

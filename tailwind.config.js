@@ -15,6 +15,8 @@ module.exports = {
         customblue: {
           50: "#0099FF",
           100: "#148CFA",
+          150: "#051A30",
+          200: "#00EAFF",
         },
         hintedwhite: {
           50: "#F3F2ED",
