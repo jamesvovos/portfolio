@@ -43,3 +43,67 @@ a {
     background: black;
   }
 }
+
+/* Projects Component Styling */
+.projects{
+  margin-top: 1rem;
+}
+
+.projectContainer{
+  margin-top: 1rem;
+  justify-content: space-between;
+  grid-template-columns: repeat(1,1fr);
+}
+
+.singleProject{
+  display: grid;
+  gap: .5rem;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  height: 100%;
+  background: #082341;
+}
+
+.externalLinks{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.youtubeIcon, .githubIcon{
+    color: #00EAFF;
+}
+
+.imgDiv{
+  width: auto;
+  height: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.projectTitle{
+  display: flex;
+  font-weight: 600;
+  color: white;
+}
+
+.desc{
+  font-weight: 600;
+  color: white;
+}
+
+.technologies{
+  gap: .5rem;
+  justify-content: flex-end;
+}
+
+.small{
+  font-weight: 600;
+}

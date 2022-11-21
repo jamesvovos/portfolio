@@ -17,6 +17,7 @@ module.exports = {
           100: "#148CFA",
           150: "#051A30",
           200: "#00EAFF",
+          250: "#082341",
         },
         hintedwhite: {
           50: "#F3F2ED",

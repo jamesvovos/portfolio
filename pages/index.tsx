@@ -1,11 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import ProjectItem from "./components/projectItem";
 import DevelopmentTools from "./components/developmentTools";
-import LanguagesGallery from "./components/languagesGallery";
 import Hero from "./components/hero";
 import ProjectCard from "./components/projectCard";
 
@@ -48,7 +45,7 @@ export default function Home() {
               text="Find in-depth information about Next.js features and API."
             />
             <DevelopmentTools />
-            <LanguagesGallery />
+            <ProjectCard />
           </div>
           <div>
             <Footer />
