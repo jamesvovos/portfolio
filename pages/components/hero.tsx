@@ -1,6 +1,7 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import styles from "../styles/Home.module.css";
+import Particle from "./particle";
 
 type Props = {};
 
@@ -16,6 +17,7 @@ export default function Hero({}: Props) {
   });
   return (
     <div className="text-center p-10">
+      <Particle />
       <h2 className="text-5xl py-2 text-customblue-50 font font-medium">
         James Vovos
       </h2>
