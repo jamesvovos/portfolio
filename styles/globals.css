@@ -107,3 +107,81 @@ img{
 .small{
   font-weight: 600;
 }
+
+/* Contact Form Component Styling */
+
+.contactContainer{
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.contactCard{
+  display: grid;
+  align-items: center;
+  row-gap: 10px;
+  padding: 1.5rem;
+  width: 100%;
+  background: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.twitterIcon, .arrowIcon{
+  color: #00EAFF;
+}
+
+.contactFlex{
+  justify-content: center;
+  gap: 5px;
+  color:#00EAFF;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form{
+  width: 100%;
+  margin:auto;
+}
+
+input, textarea {
+  height: 1rem;
+  width: 90%;
+  padding: 1.5rem .5rem;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid;
+  margin: .5rem 0;
+  outline: none;
+  color: white;
+  font-weight: 600;
+}
+
+textarea {
+  height: 150px;
+}
+
+.formBtn{
+  display: block;
+  margin: auto;
+  width: 90%;
+  border: none;
+  padding: 1rem 0;
+  background: #00EAFF;
+  color:#082341;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.formBtn:hover{
+  background: #0099FF;
+  color: white;
+}
+
+input::placeholder, textarea::placeholder{
+  color:white;
+  opacity: 0.5;
+}
