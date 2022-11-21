@@ -8,14 +8,6 @@ import DevelopmentTools from "./components/developmentTools";
 import LanguagesGallery from "./components/languagesGallery";
 import Hero from "./components/hero";
 import ProjectCard from "./components/projectCard";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
-import deved from "../public/assets/images/dev-ed-wave.png";
-import profile from "../public/assets/images/profile.jpg";
 
 export default function Home() {
   return (
@@ -30,25 +22,9 @@ export default function Home() {
         <section className="min-h-screen">
           <Navbar />
           <Hero />
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
-          </div>
-          <div className="relative mx-auto bg-gradient-to-b from-customblue-50 rounded-full w-80 h-80 mt-20 overflow-hidden">
-            <Image
-              src={profile}
-              layout="fill"
-              objectFit="cover"
-              alt="cartoon image"
-            />
-          </div>
-          <p className={styles.description}>
-            Check out my GitHub contributions{" "}
-            <code className={styles.code}>github.com/jamesvovos</code>
-          </p>
         </section>
 
+        {/* Create "About" component/page later */}
         <section>
           <div>
             <h3 className="text-3xl py-1">About Me</h3>

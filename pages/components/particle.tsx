@@ -19,18 +19,18 @@ export default function Particle() {
 
   return (
     <Particles
+      className="absolute"
+      width="100vw"
+      height="100vh"
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
+        fullScreen: { enable: false },
         zIndex: -1,
         fpsLimit: 120,
         interactivity: {
           events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
             onHover: {
               enable: true,
               mode: "repulse",
