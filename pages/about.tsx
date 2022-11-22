@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="container mx-auto">
+    <section id="about" className="container mx-auto pt-30">
       <div className="sectionTitle font-sourcecode">
         <span className="titleSymbol">.</span>
         <h5 className="titleText">getAbout</h5>

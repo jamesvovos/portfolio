@@ -46,7 +46,7 @@ const data = [
 
 export default function ProjectCard() {
   return (
-    <section id="projects" className="projects container section mx-auto">
+    <section id="projects" className="projects container section mx-auto pt-40">
       <div className="sectionTitle font-sourcecode">
         <span className="titleSymbol">.</span>
         <h5 className="titleText">getProjects</h5>
