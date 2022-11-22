@@ -7,6 +7,7 @@ import Hero from "./components/hero";
 import ProjectCard from "./components/projectCard";
 import ContactForm from "./components/contactForm";
 import Skills from "./skills";
+import About from "./about";
 
 export default function Home() {
   return (
@@ -23,24 +24,10 @@ export default function Home() {
           <Hero />
         </section>
 
-        {/* Create "About" page/component */}
+        {/* Change these to only be pages (refactor components to only be components later) */}
         <section>
           <div>
-            <h3 className="text-3xl py-1">About Me</h3>
-            <p className="text-md py-2 leading-8 text-gray-80">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
-              <span className="text-customblue-50"> CLOCS-A</span> in
-              collaboration with{" "}
-              <span className="text-customblue-50"> SEPA </span>
-            </p>
-          </div>
-          <div>
+            <About />
             <ProjectCard />
             <Skills />
             <DevelopmentTools />
