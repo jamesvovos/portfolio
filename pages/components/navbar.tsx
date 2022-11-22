@@ -14,7 +14,7 @@ export default function Navbar() {
               className="bg-customblue-50 text-white px-4 py-2 rounded-md ml-8"
               href="#"
             >
-              .resume()
+              Download Resume
             </a>
           </li>
         </ul>
