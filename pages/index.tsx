@@ -6,6 +6,7 @@ import DevelopmentTools from "./components/developmentTools";
 import Hero from "./components/hero";
 import ProjectCard from "./components/projectCard";
 import ContactForm from "./components/contactForm";
+import Skills from "./skills";
 
 export default function Home() {
   return (
@@ -40,12 +41,8 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <ProjectItem
-              link="https://nextjs.org/docs"
-              title="Documentation"
-              text="Find in-depth information about Next.js features and API."
-            />
             <ProjectCard />
+            <Skills />
             <DevelopmentTools />
             <ContactForm />
           </div>
