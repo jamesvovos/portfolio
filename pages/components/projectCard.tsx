@@ -5,11 +5,12 @@ import img from "../../public/assets/images/driver-app.png";
 import img2 from "../../public/assets/images/game-project.png";
 import img3 from "../../public/assets/images/portfolio.png";
 
+import ProjectVideo from "./projectVideo";
 const data = [
   {
     id: 1,
     image: img,
-    demo: "https://www.google.com/",
+    demo: "https://www.youtube.com/watch?v=NV0WNxvg8hQ",
     liveLink: "",
     github: "",
     title: "CLOCS-A Capstone Project",
@@ -21,7 +22,7 @@ const data = [
   {
     id: 2,
     image: img2,
-    demo: "https://www.youtube.com/",
+    demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
     liveLink: "",
     github: "",
     title: "Game Dev Custom Project",
@@ -33,7 +34,7 @@ const data = [
   {
     id: 3,
     image: img3,
-    demo: "https://www.youtube.com/",
+    demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
     liveLink: "",
     github: "",
     title: "Game Dev Custom Project",
@@ -81,10 +82,8 @@ export default function ProjectCard() {
                   </div>
                 </div>
 
-                <div className="imgDiv">
-                  <a href="" target="_blank">
-                    <img src={image.src} alt={title} />
-                  </a>
+                <div className="videoDiv">
+                  <ProjectVideo url={demo} thumbnail={image.src} />
                 </div>
 
                 <div className="projectTitle">
