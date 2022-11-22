@@ -4,14 +4,10 @@ import ProgressBar from "./components/progressBar";
 export default function Skills() {
   return (
     <section id="skills" className="container mx-auto">
-      <div className="sectionTitle">
-        <span className="titleNumber">03.</span>
-        <h5 className="titleText">
-          Skills Proficiency
-          <div className="underline">
-            <span></span>
-          </div>
-        </h5>
+      <div className="sectionTitle font-sourcecode">
+        <span className="titleSymbol">.</span>
+        <h5 className="titleText">getSkills</h5>
+        <span className="titleSymbol">()</span>
       </div>
       <div className="skills">
         <ProgressBar title={"C++"} width={"75%"} text={"75%"} />

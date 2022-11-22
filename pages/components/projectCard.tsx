@@ -47,14 +47,10 @@ const data = [
 export default function ProjectCard() {
   return (
     <section id="projects" className="projects container section mx-auto">
-      <div className="sectionTitle">
-        <span className="titleNumber">03.</span>
-        <h5 className="titleText">
-          Projects
-          <div className="underline">
-            <span></span>
-          </div>
-        </h5>
+      <div className="sectionTitle font-sourcecode">
+        <span className="titleSymbol">.</span>
+        <h5 className="titleText">getProjects</h5>
+        <span className="titleSymbol">()</span>
       </div>
       <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
         {data.map(
