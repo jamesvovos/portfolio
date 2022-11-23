@@ -1,5 +1,6 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import ReactTooltip from "react-tooltip";
 import Image from "next/image";
 import ReactLogo from "../../public/assets/logos/tools/react-logo.png";
 import GraphQlLogo from "../../public/assets/logos/tools/graphql-logo.png";
@@ -32,80 +33,109 @@ export default function DevelopmentTools() {
       <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-5 xl:gap-x-8">
         {/* Images will go here */}
         <Image
+          data-tip="React Native"
           src={ReactLogo}
           alt="React Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="React Native"
           src={GraphQlLogo}
-          alt="GraphQL Logo"
+          alt="GraphQL"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="AWS"
           src={AwsLogo}
           alt="AWS Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="Mapbox"
           src={MapboxLogo}
           alt="Mapbox Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="Figma"
           src={FigmaLogo}
           alt="Figma Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="Dynamo DB"
           src={DynamoDbLogo}
           alt="DynamoDB Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="AWS Amplify"
           src={AmplifyLogo}
           alt="Amplify Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="Google Firebase"
           src={FirebaseLogo}
           alt="Google Firebase Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="Raylib"
           src={RaylibLogo}
           alt="Raylib Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="Android Studio"
           src={AndroidStudioLogo}
           alt="Android Studio Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="MySQL"
           src={MySqlLogo}
           alt="MySQL Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="NextJS"
           src={NextJsLogo}
           alt="NextJS Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="Power BI"
           src={PowerBiLogo}
           alt="PowerBI Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
         <Image
+          data-tip="Jira"
           src={JiraLogo}
           alt="Jira Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
         <Image
+          data-tip="GitHub"
           src={GithubLogo}
           alt="GitHub Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <ReactTooltip />
       </div>
       <h3 className="mt-4 text-sm text-white">James Vovos</h3>
       <p className="mt-1 text-lg font-medium text-gray-600">@jamesvovos</p>
