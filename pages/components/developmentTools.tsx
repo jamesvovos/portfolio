@@ -1,6 +1,10 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import ReactTooltip from "react-tooltip";
+
+// https://stackoverflow.com/questions/64079321/react-tooltip-and-next-js-ssr-issue
+import dynamic from "next/dynamic";
+const ReactTooltip = dynamic(() => import("react-tooltip"), { ssr: false });
+
 import Image from "next/image";
 import ReactLogo from "../../public/assets/logos/tools/react-logo.png";
 import GraphQlLogo from "../../public/assets/logos/tools/graphql-logo.png";
@@ -40,7 +44,7 @@ export default function DevelopmentTools() {
         />
         <ReactTooltip />
         <Image
-          data-tip="React Native"
+          data-tip="GraphQL"
           src={GraphQlLogo}
           alt="GraphQL"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
