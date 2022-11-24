@@ -1,3 +1,5 @@
+import RubyLogo from "../../public/assets/logos/languages/ruby-logo.png";
+
 export default function Navbar() {
   return (
     <div>
@@ -10,7 +12,8 @@ export default function Navbar() {
           <li>
             <a
               className="bg-customblue-50 text-white px-4 py-2 rounded-md ml-8"
-              href="#"
+              href="https://drive.google.com/uc?export=download&id=1v5rrEatpPoMFRyvbOjZfgzHgECyq0SwE"
+              download={"jamesvovos-resume.pdf"}
             >
               Download Resume
             </a>
