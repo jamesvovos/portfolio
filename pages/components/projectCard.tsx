@@ -1,7 +1,6 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 
-import img from "../../public/assets/images/clocs-app.PNG";
 import img2 from "../../public/assets/images/game-project.png";
 import img3 from "../../public/assets/images/workout-demo.png";
 import img4 from "../../public/assets/images/portfolio.PNG";
@@ -10,7 +9,7 @@ import ProjectVideo from "./projectVideo";
 const data = [
   {
     id: 1,
-    image: img,
+    image: img2,
     demo: "https://youtu.be/ron3H1-aqj4",
     website: "https://clocs-a.org.au/",
     github: "https://github.com/CLOCS-A-FYP",
