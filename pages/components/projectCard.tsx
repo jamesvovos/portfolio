@@ -3,7 +3,6 @@ import { AiFillGithub } from "react-icons/ai";
 
 import img2 from "../../public/assets/images/game-project.png";
 import img3 from "../../public/assets/images/workout-demo.png";
-import img4 from "../../public/assets/images/portfolio.PNG";
 
 import ProjectVideo from "./projectVideo";
 const data = [
@@ -44,7 +43,7 @@ const data = [
   },
   {
     id: 4,
-    image: img4,
+    image: img3,
     demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
     website: "",
     github: "https://github.com/jamesvovos/portfolio",
