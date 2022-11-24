@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillYoutube, AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillChrome } from "react-icons/ai";
 
 import img from "../../public/assets/images/driver-app.png";
 import img2 from "../../public/assets/images/game-project.png";
@@ -11,10 +11,10 @@ const data = [
     id: 1,
     image: img,
     demo: "https://www.youtube.com/watch?v=NV0WNxvg8hQ",
-    liveLink: "",
-    github: "",
+    website: "https://clocs-a.org.au/",
+    github: "https://github.com/CLOCS-A-FYP",
     title: "CLOCS-A Capstone Project",
-    desc: "A Journey Location Identifier for Construction Logistics",
+    desc: "Construction logistics compliance app built to improve construction logistics safety in Australia in parnership with CLOCS-A and Transport NSW. Collaborated with a team of 4 developers to build 3 fully integrated apps. This includes 2 mobile applications built in React Native for iOS & Android platform support, as well as a web application built in React JS.",
     tech1: "React Native",
     tech2: "GraphQL",
     tech3: "AWS Amplify",
@@ -23,25 +23,24 @@ const data = [
     id: 2,
     image: img2,
     demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
-    liveLink: "",
-    github: "",
+    website: "",
+    github: "https://github.com/jamesvovos/portfolio",
     title: "Game Dev Custom Project",
-    desc: "Game showcasing different software design patterns",
+    desc: "Custom game project showcasing the implementation of different software design patterns and data structures built in C++. This includes the state, composite, component, command, singleton and factory design patterns, as well as a graph/node data structure to represent the game world with different locations with adjacent location nodes.",
     tech1: "C++",
     tech2: "Raylib",
-    tech3: "SDL2",
   },
   {
     id: 3,
     image: img3,
     demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
-    liveLink: "",
-    github: "",
-    title: "Game Dev Custom Project",
-    desc: "Game showcasing different software design patterns",
+    website: "",
+    github: "https://github.com/jamesvovos/portfolio",
+    title: "My Portfolio Site",
+    desc: "Portfolio website built from scratch to showcase some of my core project work utilsing the React/NextJS framework. This includes the implementation of React libraries for particles, tooltips and more.",
     tech1: "React",
-    tech2: "NextJS",
-    tech3: "TailWindCSS",
+    tech2: "Next.js",
+    tech3: "Tailwind CSS",
   },
 ];
 
@@ -59,7 +58,7 @@ export default function ProjectCard() {
             id,
             github,
             image,
-            liveLink,
+            website,
             desc,
             demo,
             title,
@@ -71,8 +70,8 @@ export default function ProjectCard() {
               <div key={id} className="singleProject">
                 <div className="externalLinks flex">
                   <div className="youtubeIcon text-4xl">
-                    <a href={demo} target="_blank">
-                      <AiFillYoutube className="icon" />
+                    <a href={website} target="_blank">
+                      <AiFillChrome className="icon" />
                     </a>
                   </div>
                   <div className="githubIcon text-4xl">
