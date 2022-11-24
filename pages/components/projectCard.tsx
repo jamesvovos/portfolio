@@ -1,14 +1,16 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 
+import img from "../../public/assets/images/clocs.png";
 import img2 from "../../public/assets/images/game-project.png";
 import img3 from "../../public/assets/images/workout-demo.png";
+import img4 from "../../public/assets/images/my-portfolio.png";
 
 import ProjectVideo from "./projectVideo";
 const data = [
   {
     id: 1,
-    image: img2,
+    image: img,
     demo: "https://youtu.be/ron3H1-aqj4",
     website: "https://clocs-a.org.au/",
     github: "https://github.com/CLOCS-A-FYP",
@@ -43,7 +45,7 @@ const data = [
   },
   {
     id: 4,
-    image: img3,
+    image: img4,
     demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
     website: "",
     github: "https://github.com/jamesvovos/portfolio",
