@@ -1,16 +1,17 @@
 import React from "react";
-import { AiFillGithub, AiFillChrome } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 import img from "../../public/assets/images/driver-app.png";
 import img2 from "../../public/assets/images/game-project.png";
-import img3 from "../../public/assets/images/portfolio.png";
+import img3 from "../../public/assets/images/workout-demo.png";
+import img4 from "../../public/assets/images/portfolio.png";
 
 import ProjectVideo from "./projectVideo";
 const data = [
   {
     id: 1,
     image: img,
-    demo: "https://www.youtube.com/watch?v=NV0WNxvg8hQ",
+    demo: "https://youtu.be/ron3H1-aqj4",
     website: "https://clocs-a.org.au/",
     github: "https://github.com/CLOCS-A-FYP",
     title: "CLOCS-A Capstone Project",
@@ -22,7 +23,7 @@ const data = [
   {
     id: 2,
     image: img2,
-    demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    demo: "https://youtu.be/l1d8DtS-kLw",
     website: "",
     github: "https://github.com/jamesvovos/portfolio",
     title: "Game Dev Custom Project",
@@ -33,6 +34,18 @@ const data = [
   {
     id: 3,
     image: img3,
+    demo: "https://youtube.com/shorts/o3xaU4itXzk?feature=share",
+    website: "",
+    github: "https://github.com/jamesvovos/customproject",
+    title: "Workout Tracker App",
+    desc: "Workout tracker app to log workouts, utilsing Firebase NoSQL database to store workout data. Ability to view and try out recommended exercises via an API and more.",
+    tech1: "Kotlin",
+    tech2: "Android Studio",
+    tech3: "Firebase",
+  },
+  {
+    id: 4,
+    image: img4,
     demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
     website: "",
     github: "https://github.com/jamesvovos/portfolio",
@@ -69,11 +82,6 @@ export default function ProjectCard() {
             return (
               <div key={id} className="singleProject">
                 <div className="externalLinks flex">
-                  <div className="youtubeIcon text-4xl">
-                    <a href={website} target="_blank">
-                      <AiFillChrome className="icon" />
-                    </a>
-                  </div>
                   <div className="githubIcon text-4xl">
                     <a href={github} target="_blank">
                       <AiFillGithub className="icon" />
