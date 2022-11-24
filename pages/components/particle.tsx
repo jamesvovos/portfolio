@@ -20,7 +20,7 @@ export default function Particle() {
   return (
     <Particles
       className="absolute"
-      width="100vw"
+      width="85vw"
       height="100vh"
       id="tsparticles"
       init={particlesInit}

@@ -24,7 +24,9 @@ export default function Hero({}: Props) {
       <h2 className="relative text-5xl py-2 text-customblue-50 font font-medium">
         James Vovos
       </h2>
-      <h3 className="relative text-2xl py-2">Creative Software Engineer.</h3>
+      <h3 className="relative text-2xl py-2 text-white">
+        Creative Software Engineer.
+      </h3>
       <p className="relative text-md py-5 leading-8 text-white font-sourcecode">
         {text}
         <Cursor cursorColor="#0099FF" />
@@ -53,8 +55,7 @@ export default function Hero({}: Props) {
           alt="cartoon image"
         />
       </div>
-      <p className={styles.description}>
-        Check out my GitHub contributions{" "}
+      <p className="text-white pt-20">
         <code className={styles.code}>github.com/jamesvovos</code>
       </p>
     </div>

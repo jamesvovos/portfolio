@@ -14,7 +14,7 @@ export default function ContactForm() {
           <div className="cards grid">
             <div className="contactCard">
               <div className="form grid ">
-                <h3 className="pd-1 text-3xl font-sourcecode">
+                <h3 className="pd-1 text-3xl font-sourcecode text-white">
                   Get in touch with me
                 </h3>
                 <form action="">

@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="py-10 mb-12 flex justify-between">
-        <h1 className="text-xl font-burtons">
+        <h1 className="text-xl font-burtons text-white">
           <span className="text-customblue-50 text-3xl">&lt;/&gt; </span>
           developedbyJames
         </h1>

@@ -101,7 +101,7 @@ export default function ProjectCard() {
                   <h3>{desc}</h3>
                 </div>
 
-                <div className="technologies flex">
+                <div className="technologies flex text-white">
                   <small>{tech1}</small>
                   <small>{tech2}</small>
                   <small>{tech3}</small>
