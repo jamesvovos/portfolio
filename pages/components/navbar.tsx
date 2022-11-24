@@ -15,7 +15,7 @@ export default function Navbar() {
               href="https://drive.google.com/uc?export=download&id=1v5rrEatpPoMFRyvbOjZfgzHgECyq0SwE"
               download={"jamesvovos-resume.pdf"}
             >
-              Download Resume
+              Resume
             </a>
           </li>
         </ul>

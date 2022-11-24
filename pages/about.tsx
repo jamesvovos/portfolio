@@ -9,7 +9,7 @@ export default function About() {
         <span className="titleSymbol">()</span>
       </div>
       <div>
-        <p className="text-md py-2 leading-8 text-white-80">
+        <p className="text-md py-2 leading-8 text-white">
           Hey my name is James, I'm a final year Computer Science student
           majoring in Software Engineering at the University of Swinburne. I'm
           passionate about working with people to help innovate in the tech
