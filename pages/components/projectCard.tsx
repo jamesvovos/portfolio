@@ -1,10 +1,10 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 
-import img from "../../public/assets/images/driver-app.png";
+import img from "../../public/assets/images/driver-app.PNG";
 import img2 from "../../public/assets/images/game-project.png";
 import img3 from "../../public/assets/images/workout-demo.png";
-import img4 from "../../public/assets/images/portfolio.png";
+import img4 from "../../public/assets/images/portfolio.PNG";
 
 import ProjectVideo from "./projectVideo";
 const data = [
