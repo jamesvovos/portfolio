@@ -83,7 +83,7 @@ export default function ProjectCard() {
               <div key={id} className="singleProject">
                 <div className="externalLinks flex">
                   <div className="githubIcon text-4xl">
-                    <a href={github} target="_blank">
+                    <a href={github} target="_blank" rel="noreferrer">
                       <AiFillGithub className="icon" />
                     </a>
                   </div>

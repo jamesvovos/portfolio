@@ -30,10 +30,18 @@ export default function Hero({}: Props) {
         <Cursor cursorColor="#0099FF" />
       </p>
       <div className="relative text-5xl flex justify-center gap-16 py-3 text-gray-600">
-        <a href="https://github.com/jamesvovos" target="_blank">
+        <a
+          href="https://github.com/jamesvovos"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillGithub className="cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/jamesvovos/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/jamesvovos/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillLinkedin className="cursor-pointer" />
         </a>
       </div>
