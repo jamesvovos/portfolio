@@ -2,11 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import styles from "../../styles/Home.module.css";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import profile from "../../public/assets/images/profile.jpg";
 import Particle from "./particle";
 
@@ -34,9 +30,12 @@ export default function Hero({}: Props) {
         <Cursor cursorColor="#0099FF" />
       </p>
       <div className="relative text-5xl flex justify-center gap-16 py-3 text-gray-600">
-        <AiFillTwitterCircle />
-        <AiFillLinkedin />
-        <AiFillYoutube />
+        <a href="https://github.com/jamesvovos" target="_blank">
+          <AiFillGithub className="cursor-pointer" />
+        </a>
+        <a href="https://www.linkedin.com/in/jamesvovos/" target="_blank">
+          <AiFillLinkedin className="cursor-pointer" />
+        </a>
       </div>
       <div className="relative mx-auto bg-gradient-to-b from-customblue-50 rounded-full w-80 h-80 mt-20 overflow-hidden">
         <Image
