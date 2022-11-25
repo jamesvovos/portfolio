@@ -1,6 +1,20 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
+  const form = useRef();
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_aujw0fb",
+      "template_mr1y38m",
+      form.current,
+      "xf7LkSNCpXmApO1CJ"
+    );
+    e.currentTarget.reset();
+  };
   return (
     <section id="contact" className="contact section container mx-auto">
       <div className="sectionTitle font-sourcecode">
@@ -17,9 +31,17 @@ export default function ContactForm() {
                 <h3 className="pd-1 text-3xl font-sourcecode text-white">
                   Get in touch with me
                 </h3>
-                <form action="">
-                  <input type="text" placeholder="Enter your name" />
-                  <input type="email" placeholder="Enter your email" />
+                <form ref={form} onSubmit={sendEmail}>
+                  <input
+                    type="text"
+                    placeholder="Enter your name"
+                    name="name"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    name="email"
+                  />
                   <textarea
                     name="message"
                     placeholder="Enter your message"
