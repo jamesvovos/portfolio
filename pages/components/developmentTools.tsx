@@ -10,7 +10,7 @@ import ReactLogo from "../../public/assets/logos/tools/react-logo.png";
 import GraphQlLogo from "../../public/assets/logos/tools/graphql-logo.png";
 import MapboxLogo from "../../public/assets/logos/tools/mapbox-logo.jpg";
 import FigmaLogo from "../../public/assets/logos/tools/figma-logo.png";
-import AmplifyLogo from "../../public/assets/logos/tools/aws-logo.png";
+import AmplifyLogo from "../../public/assets/logos/tools/amplify-logo.jpg";
 import FirebaseLogo from "../../public/assets/logos/tools/firebase-logo.png";
 import RaylibLogo from "../../public/assets/logos/tools/raylib-logo.png";
 import MySqlLogo from "../../public/assets/logos/tools/mysql-logo.png";
@@ -48,13 +48,6 @@ export default function DevelopmentTools() {
         />
         <ReactTooltip />
         <Image
-          data-tip="AWS Amplify"
-          src={AmplifyLogo}
-          alt="Amplify Logo"
-          className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
-        />
-        <ReactTooltip />
-        <Image
           data-tip="Mapbox"
           src={MapboxLogo}
           alt="Mapbox Logo"
@@ -67,6 +60,13 @@ export default function DevelopmentTools() {
           alt="Figma Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
+        <Image
+          data-tip="AWS Amplify"
+          src={AmplifyLogo}
+          alt="Amplify Logo"
+          className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
+        />
+        <ReactTooltip />
         <ReactTooltip />
         <Image
           data-tip="Google Firebase"
