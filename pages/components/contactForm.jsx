@@ -1,7 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactForm() {
+  const notify = () => toast.success("Message sent!");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -14,6 +17,7 @@ export default function ContactForm() {
       "xf7LkSNCpXmApO1CJ"
     );
     e.currentTarget.reset();
+    notify();
   };
   return (
     <section id="contact" className="contact section container mx-auto">
@@ -36,17 +40,21 @@ export default function ContactForm() {
                     type="text"
                     placeholder="Enter your name"
                     name="name"
+                    required
                   />
                   <input
                     type="email"
                     placeholder="Enter your email"
                     name="email"
+                    required
                   />
                   <textarea
                     name="message"
                     placeholder="Enter your message"
+                    required
                   ></textarea>
                   <button className="formBtn" type="submit" name="submit">
+                    <ToastContainer position="bottom-center" theme="dark" />
                     Send Email
                   </button>
                 </form>
