@@ -12,7 +12,7 @@ export default function Navbar() {
           <li>
             <a
               className="bg-customblue-50 text-white px-4 py-2 rounded-md ml-8"
-              href="https://drive.google.com/uc?export=download&id=1v5rrEatpPoMFRyvbOjZfgzHgECyq0SwE"
+              href="https://drive.google.com/uc?export=download&id=1zX3mgKcYyP1l9mqTXPRjvjVDG2XfGjSO"
               download={"jamesvovos-resume.pdf"}
             >
               Resume
