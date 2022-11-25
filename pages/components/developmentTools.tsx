@@ -9,22 +9,19 @@ import Image from "next/image";
 import ReactLogo from "../../public/assets/logos/tools/react-logo.png";
 import GraphQlLogo from "../../public/assets/logos/tools/graphql-logo.png";
 import MapboxLogo from "../../public/assets/logos/tools/mapbox-logo.jpg";
-import AwsLogo from "../../public/assets/logos/tools/aws-logo.png";
 import FigmaLogo from "../../public/assets/logos/tools/figma-logo.png";
-import DynamoDbLogo from "../../public/assets/logos/tools/dynamo-db-logo.png";
-import AmplifyLogo from "../../public/assets/logos/tools/amplify-logo.jpg";
+import AmplifyLogo from "../../public/assets/logos/tools/aws-logo.png";
 import FirebaseLogo from "../../public/assets/logos/tools/firebase-logo.png";
 import RaylibLogo from "../../public/assets/logos/tools/raylib-logo.png";
-import AndroidStudioLogo from "../../public/assets/logos/tools/android-studio-logo.jpg";
 import MySqlLogo from "../../public/assets/logos/tools/mysql-logo.png";
 import NextJsLogo from "../../public/assets/logos/tools/next-js-logo.jpg";
-import PowerBiLogo from "../../public/assets/logos/tools/power-bi-logo.jpg";
 import JiraLogo from "../../public/assets/logos/tools/jira-logo.png";
 import GithubLogo from "../../public/assets/logos/tools/github-logo.png";
+import VercelLogo from "../../public/assets/logos/tools/vercel-logo.png";
 
 export default function DevelopmentTools() {
   const [text, count] = useTypewriter({
-    words: ["Dev tools I've worked with:"],
+    words: ["My dev toolkit:"],
     loop: true,
     delaySpeed: 2000,
   });
@@ -34,10 +31,10 @@ export default function DevelopmentTools() {
         {text}
         <Cursor cursorColor="#0099FF" />
       </h1>
-      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-5 xl:gap-x-8">
+      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
         {/* Images will go here */}
         <Image
-          data-tip="React Native"
+          data-tip="React/React Native"
           src={ReactLogo}
           alt="React Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
@@ -51,9 +48,9 @@ export default function DevelopmentTools() {
         />
         <ReactTooltip />
         <Image
-          data-tip="AWS"
-          src={AwsLogo}
-          alt="AWS Logo"
+          data-tip="AWS Amplify"
+          src={AmplifyLogo}
+          alt="Amplify Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
         <ReactTooltip />
@@ -72,20 +69,6 @@ export default function DevelopmentTools() {
         />
         <ReactTooltip />
         <Image
-          data-tip="Dynamo DB"
-          src={DynamoDbLogo}
-          alt="DynamoDB Logo"
-          className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
-        />
-        <ReactTooltip />
-        <Image
-          data-tip="AWS Amplify"
-          src={AmplifyLogo}
-          alt="Amplify Logo"
-          className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
-        />
-        <ReactTooltip />
-        <Image
           data-tip="Google Firebase"
           src={FirebaseLogo}
           alt="Google Firebase Logo"
@@ -100,13 +83,6 @@ export default function DevelopmentTools() {
         />
         <ReactTooltip />
         <Image
-          data-tip="Android Studio"
-          src={AndroidStudioLogo}
-          alt="Android Studio Logo"
-          className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
-        />
-        <ReactTooltip />
-        <Image
           data-tip="MySQL"
           src={MySqlLogo}
           alt="MySQL Logo"
@@ -114,16 +90,16 @@ export default function DevelopmentTools() {
         />
         <ReactTooltip />
         <Image
-          data-tip="NextJS"
+          data-tip="Next.js"
           src={NextJsLogo}
-          alt="NextJS Logo"
+          alt="Next.js Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
         <ReactTooltip />
         <Image
-          data-tip="Power BI"
-          src={PowerBiLogo}
-          alt="PowerBI Logo"
+          data-tip="Vercel"
+          src={VercelLogo}
+          alt="Vercel Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
         <Image
