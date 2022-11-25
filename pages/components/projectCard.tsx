@@ -23,7 +23,7 @@ const data = [
   {
     id: 2,
     image: img2,
-    demo: "https://youtu.be/l1d8DtS-kLw",
+    demo: "https://youtu.be/yAHBWlFMhCU",
     website: "",
     github: "https://github.com/jamesvovos/game-dev-custom-project",
     title: "Game Dev Custom Project",
@@ -46,7 +46,7 @@ const data = [
   {
     id: 4,
     image: img4,
-    demo: "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    demo: "https://youtu.be/m6Nax3S3Z_4",
     website: "",
     github: "https://github.com/jamesvovos/portfolio",
     title: "My Portfolio Site",
