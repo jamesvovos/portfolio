@@ -2,9 +2,9 @@ import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 
 import img from "../../public/assets/images/clocs.png";
-import img2 from "../../public/assets/images/game-project.png";
-import img3 from "../../public/assets/images/workout-demo.png";
-import img4 from "../../public/assets/images/my-portfolio.png";
+import img2 from "../../public/assets/images/game-asset-generator.png";
+import img3 from "../../public/assets/images/game-project.png";
+import img4 from "../../public/assets/images/workout-demo.png";
 
 import ProjectVideo from "./projectVideo";
 const data = [
@@ -23,17 +23,29 @@ const data = [
   {
     id: 2,
     image: img2,
-    demo: "https://youtu.be/yAHBWlFMhCU",
+    demo: "https://youtu.be/JbxVSpukm7I",
     website: "",
-    github: "https://github.com/jamesvovos/game-dev-custom-project",
-    title: "Game Dev Custom Project",
-    desc: "Custom game project showcasing the implementation of different software design patterns and data structures built in C++. This includes the state, composite, component, command, singleton and factory design patterns, as well as a graph/node data structure to represent the game world with different locations with adjacent location nodes.",
-    tech1: "C++",
-    tech2: "Raylib",
+    github: "https://github.com/jamesvovos/ai-game-asset-creator",
+    title: "AI Game Asset Creator",
+    desc: "AI & NLP Game Asset Creator built with Python. Generate game assets procedurally using artificial intelligence, custom pipelines and natural language processing (NLP).",
+    tech1: "Python",
+    tech2: "LangChain",
+    tech3: "Streamlit",
   },
   {
     id: 3,
     image: img3,
+    demo: "https://youtu.be/Z-rk42hRw9s",
+    website: "",
+    github: "https://github.com/jamesvovos/game-dev-custom-project",
+    title: "Game Dev Custom Project",
+    desc: "Custom game project showcasing the implementation of different software design patterns and data structures built in C++. This includes the state, composite, component, command and factory design patterns, as well as a graph/node data structure to represent the game world with different locations with adjacent location nodes.",
+    tech1: "C++",
+    tech2: "Raylib",
+  },
+  {
+    id: 4,
+    image: img4,
     demo: "https://youtube.com/shorts/o3xaU4itXzk?feature=share",
     website: "",
     github: "https://github.com/jamesvovos/workout-tracker",
@@ -42,18 +54,6 @@ const data = [
     tech1: "Kotlin",
     tech2: "Android Studio",
     tech3: "Firebase",
-  },
-  {
-    id: 4,
-    image: img4,
-    demo: "https://youtu.be/m6Nax3S3Z_4",
-    website: "",
-    github: "https://github.com/jamesvovos/portfolio",
-    title: "My Portfolio Site",
-    desc: "Portfolio website built from scratch to showcase some of my core project work utilsing the React/NextJS framework. This includes the implementation of React libraries for particles, tooltips and more.",
-    tech1: "React",
-    tech2: "Next.js",
-    tech3: "Tailwind CSS",
   },
 ];
 
