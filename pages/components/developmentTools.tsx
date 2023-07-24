@@ -6,18 +6,18 @@ import dynamic from "next/dynamic";
 const ReactTooltip = dynamic(() => import("react-tooltip"), { ssr: false });
 
 import Image from "next/image";
-import ReactLogo from "../../public/assets/logos/tools/react-logo.png";
+import ReactLogo from "../../public/assets/logos/tools/react-logo.webp";
 import GraphQlLogo from "../../public/assets/logos/tools/graphql-logo.png";
 import MapboxLogo from "../../public/assets/logos/tools/mapbox-logo.jpg";
 import FigmaLogo from "../../public/assets/logos/tools/figma-logo.png";
 import AmplifyLogo from "../../public/assets/logos/tools/amplify-logo.jpg";
 import FirebaseLogo from "../../public/assets/logos/tools/firebase-logo.png";
-import RaylibLogo from "../../public/assets/logos/tools/raylib-logo.png";
 import MySqlLogo from "../../public/assets/logos/tools/mysql-logo.png";
 import NextJsLogo from "../../public/assets/logos/tools/next-js-logo.jpg";
 import JiraLogo from "../../public/assets/logos/tools/jira-logo.png";
 import GithubLogo from "../../public/assets/logos/tools/github-logo.png";
 import VercelLogo from "../../public/assets/logos/tools/vercel-logo.png";
+import PythonLogo from "../../public/assets/logos/tools/python-logo.png";
 
 export default function DevelopmentTools() {
   const [text, count] = useTypewriter({
@@ -76,9 +76,9 @@ export default function DevelopmentTools() {
         />
         <ReactTooltip />
         <Image
-          data-tip="Raylib"
-          src={RaylibLogo}
-          alt="Raylib Logo"
+          data-tip="Python"
+          src={PythonLogo}
+          alt="Python Logo"
           className="hover:opacity-75 hover:border-2 border-customblue-50 rounded-lg object-cover h-40 w-30"
         />
         <ReactTooltip />

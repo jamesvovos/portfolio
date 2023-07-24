@@ -11,13 +11,11 @@ export default function Skills() {
       </div>
       <div className="skills">
         <ProgressBar title={"C++"} width={"75%"} text={"75%"} />
-        <ProgressBar title={"C#"} width={"90%"} text={"90%"} />
-        <ProgressBar title={"JAVASCRIPT"} width={"45%"} text={"45%"} />
+        <ProgressBar title={"JAVASCRIPT"} width={"55%"} text={"55%"} />
         <ProgressBar title={"JAVA"} width={"70%"} text={"70%"} />
         <ProgressBar title={"PYTHON"} width={"85%"} text={"85%"} />
-        <ProgressBar title={"React Native"} width={"95%"} text={"95%"} />
-        <ProgressBar title={"React JS"} width={"65%"} text={"65%"} />
-        <ProgressBar title={"Kotlin"} width={"40%"} text={"40%"} />
+        <ProgressBar title={"REACT NATIVE"} width={"95%"} text={"95%"} />
+        <ProgressBar title={"REACT JS"} width={"70%"} text={"70%"} />
       </div>
     </section>
   );

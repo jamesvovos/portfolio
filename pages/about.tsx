@@ -10,13 +10,17 @@ export default function About() {
       </div>
       <div>
         <p className="text-md py-2 leading-8 text-white">
-          Hey my name is James, I'm a final year Computer Science student
-          majoring in Software Engineering at the University of Swinburne. I'm
-          passionate about working with people to help innovate in the tech
-          industry. I'm excited to showcase some of my past portfolio work
-          including my final year Capstone project
-          <span className="text-customblue-50"> "CLOCS-A"</span> in
-          collaboration with <span className="text-customblue-50"> SEPA. </span>
+          As a software engineer, I have had the opportunity to work on projects
+          that positively impact individuals across Australia. My work spans
+          from collaborating with{" "}
+          <span className="text-customblue-50"> Transport NSW & CLOCS-A. </span>{" "}
+          to develop several cutting-edge mobile apps that help construction and
+          logistics companies across Australia monitor and adhere to compliance
+          standards in trucking logistics, to collaborating with agile startups
+          helping to implement technology that enhances the learning and
+          literacy skills of students Australia wide. With a passion for
+          innovation and problem solving, I am driven to continue creating
+          solutions that make a positive impact on people's lives.
         </p>
       </div>
     </section>
