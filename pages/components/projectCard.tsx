@@ -1,10 +1,14 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
+import Image from "next/image";
+
+import st from "../../public/assets/images/stripes.svg";
+import sq from "../../public/assets/images/square.svg";
 
 import img from "../../public/assets/images/clocs.png";
 import img2 from "../../public/assets/images/game-asset-generator.png";
-import img3 from "../../public/assets/images/game-project.png";
-import img4 from "../../public/assets/images/workout-demo.png";
+import img3 from "../../public/assets/images/ai.png";
+import img4 from "../../public/assets/images/game-project.png";
 
 import ProjectVideo from "./projectVideo";
 const data = [
@@ -15,7 +19,7 @@ const data = [
     website: "https://clocs-a.org.au/",
     github: "https://github.com/CLOCS-A-FYP",
     title: "CLOCS-A Capstone Project",
-    desc: "Construction logistics compliance app built to improve construction logistics safety in Australia in parnership with CLOCS-A and Transport NSW. Collaborated with a team of 4 developers to build 3 fully integrated apps. This includes 2 mobile applications built in React Native for iOS & Android platform support, as well as a web application built in React JS.",
+    desc: "Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps.",
     tech1: "React Native",
     tech2: "GraphQL",
     tech3: "AWS Amplify",
@@ -35,7 +39,19 @@ const data = [
   {
     id: 3,
     image: img3,
-    demo: "https://youtu.be/Z-rk42hRw9s",
+    demo: "https://youtu.be/JbxVSpukm7I",
+    website: "",
+    github: "https://github.com/jamesvovos/nlp-project-api",
+    title: "Neural Network API",
+    desc: "Built a custom neural network model that can be trained via API. The idea behind it was initially a chatbot which evolved to become a NPC creator for games. The API was built using FastAPI and SQLAlchemy. The neural network was built using PyTorch, utilising 3 linear layers and a relu activation function.",
+    tech1: "Python",
+    tech2: "PyTorch",
+    tech3: "spaCy",
+  },
+  {
+    id: 4,
+    image: img4,
+    demo: "https://youtu.be/JbxVSpukm7I",
     website: "",
     github: "https://github.com/jamesvovos/game-dev-custom-project",
     title: "Game Dev Custom Project",
@@ -43,29 +59,17 @@ const data = [
     tech1: "C++",
     tech2: "Raylib",
   },
-  {
-    id: 4,
-    image: img4,
-    demo: "https://youtube.com/shorts/o3xaU4itXzk?feature=share",
-    website: "",
-    github: "https://github.com/jamesvovos/workout-tracker",
-    title: "Workout Tracker App",
-    desc: "Workout tracker app to log workouts, utilsing Firebase NoSQL database to store workout data. Ability to view and try out recommended exercises via an API and more.",
-    tech1: "Kotlin",
-    tech2: "Android Studio",
-    tech3: "Firebase",
-  },
 ];
 
 export default function ProjectCard() {
   return (
-    <section id="projects" className="projects container section mx-auto pt-40">
+    <section id="projects" className="projects container section mx-auto pt-20">
       <div className="sectionTitle font-sourcecode">
         <span className="titleSymbol">.</span>
         <h5 className="titleText">getProjects</h5>
         <span className="titleSymbol">()</span>
       </div>
-      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
+      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-8">
         {data.map(
           ({
             id,
@@ -89,8 +93,16 @@ export default function ProjectCard() {
                   </div>
                 </div>
 
-                <div className="videoDiv">
-                  <ProjectVideo url={demo} thumbnail={image.src} />
+                <div className="miniContainerDiv">
+                  <span className="demoImg">
+                    <Image src={image} alt={title} className="projectImage" />
+                  </span>
+                  <span className="square">
+                    <Image src={sq} alt="Square" className="square" />
+                  </span>
+                  <span className="stripes">
+                    <Image src={st} alt="Stripes" className="stripes" />
+                  </span>
                 </div>
 
                 <div className="projectTitle">
@@ -98,7 +110,7 @@ export default function ProjectCard() {
                 </div>
 
                 <div className="desc">
-                  <h3>{desc}</h3>
+                  <p>{desc}</p>
                 </div>
 
                 <div className="technologies flex text-white">

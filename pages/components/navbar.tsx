@@ -1,5 +1,3 @@
-import RubyLogo from "../../public/assets/logos/languages/ruby-logo.png";
-
 export default function Navbar() {
   return (
     <div>
@@ -11,7 +9,7 @@ export default function Navbar() {
         <ul className="flex items-center">
           <li>
             <a
-              className="bg-customblue-50 text-white px-4 py-2 rounded-md ml-8"
+              className="bg-customblue-50 text-white px-4 py-3 rounded-md ml-8"
               href="https://drive.google.com/uc?export=download&id=1zX3mgKcYyP1l9mqTXPRjvjVDG2XfGjSO"
               download={"jamesvovos-resume.pdf"}
             >

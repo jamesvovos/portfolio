@@ -14,13 +14,13 @@ export default function ContactForm() {
       "service_aujw0fb",
       "template_mr1y38m",
       form.current,
-      "xf7LkSNCpXmApO1CJ"
+      "s6mcsCiLHfbNxnPNp"
     );
     e.currentTarget.reset();
     notify();
   };
   return (
-    <section id="contact" className="contact section container mx-auto">
+    <section id="contact" className="contact section container mx-auto pt-20">
       <div className="sectionTitle font-sourcecode">
         <span className="titleSymbol">.</span>
         <h5 className="titleText">contactJames</h5>

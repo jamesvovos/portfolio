@@ -10,10 +10,11 @@ module.exports = {
         burtons: "burtons",
         sourcecode: "sourcecode",
         drukwideweb: "drukwideweb",
+        poppins: "poppins",
       },
       colors: {
         customblue: {
-          50: "#0099FF",
+          50: "#0062FD",
           100: "#148CFA",
           150: "#051A30",
           200: "#00EAFF",

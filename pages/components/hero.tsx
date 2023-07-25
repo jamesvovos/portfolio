@@ -24,11 +24,11 @@ export default function Hero({}: Props) {
         James Vovos
       </h2>
       <h3 className="relative text-2xl py-2 text-white">
-        Creative Software Engineer.
+        Creative Software Engineer Graduate.
       </h3>
       <p className="relative text-md py-5 leading-8 text-white font-sourcecode">
         {text}
-        <Cursor cursorColor="#0099FF" />
+        <Cursor cursorColor="#0062FD" />
       </p>
       <div className="relative text-5xl flex justify-center gap-16 py-3 text-gray-600">
         <a

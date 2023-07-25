@@ -1,12 +1,9 @@
 import Head from "next/head";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-import ProjectItem from "./components/projectItem";
-import DevelopmentTools from "./components/developmentTools";
 import Hero from "./components/hero";
 import ProjectCard from "./components/projectCard";
 import ContactForm from "./components/contactForm";
-import Skills from "./skills";
 import About from "./about";
 
 export default function Home() {
@@ -29,8 +26,6 @@ export default function Home() {
           <div>
             <About />
             <ProjectCard />
-            <Skills />
-            <DevelopmentTools />
             <ContactForm />
           </div>
           <div>

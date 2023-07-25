@@ -25,6 +25,16 @@ a {
 }
 
 @font-face {
+  font-family: "poppins-bold";
+  src: url("../public/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../public/Poppins-Regular.ttf");
+}
+
+@font-face {
   font-family: "sourcecode";
   src: url("../public/SourceCodePro-Regular.ttf");
 }
@@ -61,12 +71,13 @@ a {
   padding: 1.5rem 1rem;
   border-radius: 10px;
   height: 100%;
-  background: #082341;
+  background: #f8f5f2;
+  cursor: pointer;
 }
 
 .singleProject:hover {
   transform: translateY(-7px);
-  border-bottom: 4px solid #00eaff;
+  border-bottom: 4px solid #0062fd;
 }
 
 .externalLinks {
@@ -76,15 +87,46 @@ a {
 
 .youtubeIcon,
 .githubIcon {
-  color: #00eaff;
+  color: #0062fd;
 }
 
-.videoDiv {
+.miniContainerDiv {
   width: auto;
   height: 350px;
   border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
+  background-color: #d9efff;
+  position: relative;
+  display: flex; /* Use flexbox to center the content */
+  justify-content: center; /* Horizontally center the content */
+}
+
+.square {
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 250px; /* Adjust the width as per your requirements */
+  height: 250px; /* Adjust the height as per your requirements */
+  z-index: 2; /* Ensure the scribble appears above the image */
+}
+
+.stripes {
+  position: absolute;
+  bottom: 0px;
+  left: -10px;
+  width: 80px; /* Adjust the width as per your requirements */
+  height: 80px; /* Adjust the height as per your requirements */
+  z-index: 2; /* Ensure the scribble appears above the image */
+}
+
+.demoImg {
+  align-self: center;
+  position: absolute;
+  width: 90%; /* Adjust the width as per your requirements */
+  height: 80%; /* Adjust the height as per your requirements */
+  z-index: 1; /* Ensure the scribble appears above the image */
+  border-radius: 24px;
 }
 
 img {
@@ -97,17 +139,22 @@ img {
 .projectTitle {
   display: flex;
   font-weight: 600;
-  color: white;
+  font-family: "Poppins-Bold";
+  color: #0062fd;
+  font-size: xx-large;
 }
 
 .desc {
-  font-weight: 600;
-  color: white;
+  font-size: small;
+  font-family: "Poppins";
+  color: black;
 }
 
 .technologies {
   gap: 0.5rem;
   justify-content: flex-end;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
 }
 
 .small {
@@ -136,13 +183,13 @@ img {
 
 .twitterIcon,
 .arrowIcon {
-  color: #00eaff;
+  color: #0062fd;
 }
 
 .contactFlex {
   justify-content: center;
   gap: 5px;
-  color: #00eaff;
+  color: F8F5F2;
   font-weight: 600;
   cursor: pointer;
 }
@@ -176,8 +223,8 @@ textarea {
   width: 90%;
   border: none;
   padding: 1rem 0;
-  background: #00eaff;
-  color: #082341;
+  background: #0062fd;
+  color: white;
   cursor: pointer;
   border-radius: 10px;
   font-size: 18px;
@@ -240,7 +287,7 @@ textarea::placeholder {
 }
 
 .titleSymbol {
-  color: #0099ff;
+  color: #0062fd;
   font-weight: 600;
 }
 
