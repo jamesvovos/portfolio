@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import styles from "../../styles/Home.module.css";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import profile from "../../public/assets/images/profile.jpg";
 import Particle from "./particle";
+import TechStack from "../components/techStack";
 
 type Props = {};
 
@@ -54,9 +54,7 @@ export default function Hero({}: Props) {
           alt="cartoon image"
         />
       </div>
-      <p className="text-white pt-20">
-        <code className={styles.code}>github.com/jamesvovos</code>
-      </p>
+      <TechStack />
     </div>
   );
 }

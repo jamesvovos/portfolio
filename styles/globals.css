@@ -54,6 +54,34 @@ a {
   }
 }
 
+/* Tech Stack Component Styling */
+.techStack {
+  width: 100%;
+}
+
+.techStackText {
+  display: flex;
+  font-weight: 600;
+  font-family: "Poppins-Bold";
+  color: #f8f5f2;
+  font-size: xx-large;
+  padding-right: 20px;
+}
+
+.techStackIcon {
+  padding-right: 10px;
+}
+
+.icon-wrapper {
+  width: 42px;
+  height: 42px;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
 /* Projects Component Styling */
 .projects {
   margin-top: 1rem;
