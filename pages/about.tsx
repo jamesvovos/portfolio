@@ -9,7 +9,7 @@ export default function About() {
         <span className="titleSymbol">()</span>
       </div>
       <div>
-        <p className="text-xl py-2 leading-8 text-white">
+        <p className="text-lg py-2 leading-8 text-white text-center">
           As a software engineer, I have had the opportunity to work on projects
           that positively impact individuals across Australia. My work spans
           from collaborating with{" "}
