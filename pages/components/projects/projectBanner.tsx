@@ -6,7 +6,7 @@ export default function ProjectBanner() {
     <div className="text-left container mx-auto flex-wrap grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
       {/* On small and medium screens (col-span-1) */}
       <div className="md:col-span-1">
-        <h2 className="relative text-4xl md:text-6xl py-2 text-customblue-50 font-poppinsbold">
+        <h2 className="relative text-4xl md:text-6xl lg:text-8xl py-2 text-customblue-50 font-poppinsbold">
           CLOCS-A
         </h2>
         <h3 className="relative text-base md:text-lg py-2 text-black font-poppins">

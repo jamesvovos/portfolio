@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ProjectBanner from "../components/projects/projectBanner";
+import FigmaShowcase from "../components/projects/figmaShowcase";
 import ProjectTechStack from "../components/projects/projectTechStack";
 import InfoSectionPrimary from "../components/projects/infoSectionPrimary";
 import InfoSectionSecondary from "../components/projects/infoSectionSecondary";
@@ -40,13 +41,14 @@ export default function Project() {
             </span>
             <ProjectBanner />
             <ProjectTechStack />
-            <InfoSectionPrimary
+            <FigmaShowcase />
+            <InfoSectionSecondary
               title="CLOCS-A"
               desc="Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps."
               video="https://youtu.be/ron3H1-aqj4"
               thumbnail=""
             />
-            <InfoSectionSecondary
+            <InfoSectionPrimary
               title="CLOCS-A"
               desc="Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps."
               video="https://youtu.be/ron3H1-aqj4"
