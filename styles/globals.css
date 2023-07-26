@@ -74,8 +74,8 @@ a {
 
 .icon-wrapper {
   /* Set a relative size for the icons */
-  max-width: 42px;
-  max-height: 42px;
+  width: 42px !important;
+  height: 42px !important;
 }
 
 .icon {
