@@ -25,12 +25,12 @@ export default function TechStack() {
   return (
     <section id="techStack">
       <div className="techStacks flex justify-center pt-20">
-        <div className="techStackText">
+        <div className="relative text-4xl flex justify-center gap-16 py-5 px-2 text-white font-poppins">
           <p>Tech Stack |</p>
         </div>
         {data.map(({ id, logo, alt }) => {
           return (
-            <div key={id} className="singleTechStack">
+            <div key={id} className="justify-center gap-16 py-5">
               <div className="techStackIcon">
                 <Image
                   data-tip={alt}
