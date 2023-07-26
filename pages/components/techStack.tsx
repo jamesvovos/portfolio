@@ -31,7 +31,7 @@ export default function TechStack() {
         {data.map(({ id, logo, alt }) => {
           return (
             <div key={id} className="justify-center gap-16 py-5">
-              <div className="techStackIcon">
+              <div className="techStackIcon md:w-42 lg:w-42">
                 <Image
                   data-tip={alt}
                   src={logo}
