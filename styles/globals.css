@@ -295,3 +295,86 @@ textarea::placeholder {
   position: relative;
   width: max-content;
 }
+
+/* Info Card for Project Case Study */
+
+.infoCard {
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  display: flex; /* Use flex to enable flexbox layout */
+  flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+}
+
+.infoCardTextWrapper {
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex; /* Use flex to enable flexbox layout */
+  flex-direction: column; /* Stack elements vertically inside the wrapper */
+  justify-content: left; /* Vertically center the content */
+}
+
+.infoCardTitle {
+  display: flex;
+  font-weight: 600;
+  font-family: "Poppins-Bold";
+  color: white;
+  font-size: 64px;
+  justify-content: left; /* Horizontally left the title text */
+  align-items: left; /* Vertically left the title text */
+  height: 100px; /* Set a fixed height for the title */
+}
+
+.infoCardDesc {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  padding: 10px; /* Add some padding for better presentation */
+}
+
+.player-wrapper {
+  flex: 1; /* Set the 'player-wrapper' to occupy remaining space */
+  display: flex; /* Use flex to enable flexbox layout */
+  align-items: flex-end; /* Align the video to the bottom of the wrapper */
+  justify-content: flex-end; /* Align the video to the right of the wrapper */
+  margin: 40px;
+  border-radius: 12px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .infoCardTextWrapper {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .infoCardTitle {
+    font-size: 54px; /* Reduce font size further for smaller screens */
+  }
+
+  .player-wrapper {
+    margin: 10px;
+  }
+}
+
+/* Media Query for Tablet Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .infoCardTextWrapper {
+    width: 50%;
+    margin-left: 2%;
+  }
+
+  .infoCardTitle {
+    font-size: 48px;
+  }
+
+  .player-wrapper {
+    width: 50%;
+    margin: 20px;
+  }
+}
