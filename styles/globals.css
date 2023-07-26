@@ -454,6 +454,21 @@ textarea::placeholder {
     margin: 10px;
     order: +1; /* Change the order to place the video below the text */
   }
+
+  .square {
+    top: 190px;
+    right: -40px;
+    width: 150px; /* Adjust the width as per your requirements */
+    height: 150px; /* Adjust the height as per your requirements */
+  }
+
+  .stripes {
+    bottom: 170px;
+    left: -10px;
+    width: 100px; /* Adjust the width as per your requirements */
+    height: 100px; /* Adjust the height as per your requirements */
+    z-index: 0;
+  }
 }
 
 /* Media Query for Tablet Devices */
