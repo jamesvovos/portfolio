@@ -103,21 +103,19 @@ a {
 }
 
 .square {
-  position: absolute;
-  top: 60px;
-  right: -40px;
+  top: 120px;
+  right: -120px;
   width: 350px; /* Adjust the width as per your requirements */
   height: 350px; /* Adjust the height as per your requirements */
   z-index: 0; /* Ensure the scribble appears above the image */
 }
 
 .stripes {
-  position: absolute;
-  bottom: 300px;
-  left: -10px;
+  bottom: 1100px;
+  left: -20px;
   width: 150px; /* Adjust the width as per your requirements */
   height: 150px; /* Adjust the height as per your requirements */
-  z-index: 2; /* Ensure the scribble appears above the image */
+  z-index: 0; /* Ensure the scribble appears above the image */
 }
 
 .demoImg {
@@ -456,14 +454,14 @@ textarea::placeholder {
   }
 
   .square {
-    top: 190px;
-    right: -40px;
+    top: 110px;
+    right: -45px;
     width: 150px; /* Adjust the width as per your requirements */
     height: 150px; /* Adjust the height as per your requirements */
   }
 
   .stripes {
-    bottom: 170px;
+    bottom: 1800px;
     left: -10px;
     width: 100px; /* Adjust the width as per your requirements */
     height: 100px; /* Adjust the height as per your requirements */
@@ -485,5 +483,13 @@ textarea::placeholder {
   .player-wrapper {
     width: 50%;
     margin: 20px;
+  }
+
+  .stripes {
+    bottom: 950px;
+    left: -10px;
+    width: 100px; /* Adjust the width as per your requirements */
+    height: 100px; /* Adjust the height as per your requirements */
+    z-index: 2;
   }
 }

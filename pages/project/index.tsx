@@ -19,16 +19,24 @@ export default function Project() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-hintedwhite-50 px-10">
+      <main className="bg-hintedwhite-50 px-10 relative overflow-hidden">
         {/* Change these to only be pages (refactor components to only be components later) */}
         <section className="min-h-screen">
           <Navbar />
           <div>
             <span className="square">
-              <Image src={sq} alt="Square" className="square" />
+              <Image
+                src={sq}
+                alt="Square"
+                className="square absolute overflow-hidden"
+              />
             </span>
             <span className="stripes">
-              <Image src={st} alt="Stripes" className="stripes" />
+              <Image
+                src={st}
+                alt="Stripes"
+                className="stripes absolute overflow-hidden"
+              />
             </span>
             <ProjectBanner />
             <ProjectTechStack />
