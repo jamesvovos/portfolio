@@ -64,7 +64,7 @@ a {
   font-weight: 600;
   font-family: "Poppins-Bold";
   color: #f8f5f2;
-  font-size: xx-large;
+  font-size: x-large;
   padding-right: 20px;
 }
 
@@ -73,28 +73,16 @@ a {
 }
 
 .icon-wrapper {
-  width: 42px;
-  height: 42px;
+  /* Set a relative size for the icons */
+  width: 8vw;
+  height: 8vw;
+  max-width: 42px;
+  max-height: 42px;
 }
 
 .icon {
   width: 100%;
   height: 100%;
-}
-
-/* Responsive sizing for mobile devices */
-@media (max-width: 768px) {
-  .icon-wrapper {
-    width: 32px;
-    height: 32px;
-  }
-}
-
-@media (max-width: 480px) {
-  .icon-wrapper {
-    width: 24px;
-    height: 24px;
-  }
 }
 
 /* Projects Component Styling */
