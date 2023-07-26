@@ -23,9 +23,10 @@ const data = [
 
 export default function TechStack() {
   return (
-    <section id="techStack">
-      <div className="techStacks flex justify-center pt-20">
+    <section id="text-center min-h-screen">
+      <div className="flex justify-center pt-20">
         <div className="relative text-4xl flex justify-center gap-16 py-5 px-2 text-white font-poppins">
+          <p>Tech Stack |</p>
         </div>
         {data.map(({ id, logo, alt }) => {
           return (
@@ -36,8 +37,6 @@ export default function TechStack() {
                   src={logo}
                   alt={alt}
                   className="icon"
-                  height={42}
-                  width={42}
                   priority={true}
                 />
                 <ReactTooltip />
