@@ -26,7 +26,6 @@ export default function TechStack() {
     <section id="techStack">
       <div className="techStacks flex justify-center pt-20">
         <div className="relative text-4xl flex justify-center gap-16 py-5 px-2 text-white font-poppins">
-          <p>Tech Stack |</p>
         </div>
         {data.map(({ id, logo, alt }) => {
           return (
