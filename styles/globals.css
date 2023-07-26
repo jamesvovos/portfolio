@@ -296,7 +296,7 @@ textarea::placeholder {
   width: max-content;
 }
 
-/* Info Card for Project Case Study */
+/* Info Card Primary for Project Case Study */
 
 .infoCard {
   width: auto;
@@ -307,6 +307,7 @@ textarea::placeholder {
   position: relative;
   display: flex; /* Use flex to enable flexbox layout */
   flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+  margin-bottom: 20px;
 }
 
 .infoCardTextWrapper {
@@ -354,11 +355,12 @@ textarea::placeholder {
   }
 
   .infoCardTitle {
-    font-size: 54px; /* Reduce font size further for smaller screens */
+    font-size: 42px; /* Reduce font size further for smaller screens */
   }
 
   .player-wrapper {
     margin: 10px;
+    order: +1; /* Change the order to place the video below the text */
   }
 }
 
@@ -370,6 +372,98 @@ textarea::placeholder {
   }
 
   .infoCardTitle {
+    font-size: 48px;
+  }
+
+  .player-wrapper {
+    width: 50%;
+    margin: 20px;
+  }
+}
+
+/* Info Card Secondary for Project Case Study */
+
+.infoCardSecondary {
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  display: flex; /* Use flex to enable flexbox layout */
+  flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+  margin-bottom: 20px;
+}
+
+.infoCardTextWrapperSecondary {
+  width: 50%;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex; /* Use flex to enable flexbox layout */
+  flex-direction: column; /* Stack elements vertically inside the wrapper */
+  justify-content: right; /* Vertically center the content */
+}
+
+.infoCardTitleSecondary {
+  display: flex;
+  font-weight: 600;
+  font-family: "Poppins-Bold";
+  color: #0062fd;
+  font-size: 64px;
+  justify-content: right; /* Horizontally left the title text */
+  align-items: right; /* Vertically left the title text */
+  height: 100px; /* Set a fixed height for the title */
+}
+
+.infoCardDescSecondary {
+  color: white;
+  text-align: right;
+  font-family: "Poppins";
+  font-size: 16px;
+  padding: 10px; /* Add some padding for better presentation */
+}
+
+.player-wrapper {
+  flex: 1; /* Set the 'player-wrapper' to occupy remaining space */
+  display: flex; /* Use flex to enable flexbox layout */
+  align-items: flex-end; /* Align the video to the bottom of the wrapper */
+  justify-content: flex-end; /* Align the video to the right of the wrapper */
+  margin: 40px;
+  border-radius: 12px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .infoCardTextWrapperSecondary {
+    width: 100%;
+    margin-left: 2%;
+    text-align: left; /* Align all text to the left */
+    align-items: flex-start; /* Align all text to the left */
+  }
+
+  .infoCardTitleSecondary {
+    font-size: 42px; /* Reduce font size for smaller screens */
+  }
+
+  .infoCardDescSecondary {
+    text-align: left; /* Align description text to the left */
+  }
+
+  .player-wrapper {
+    margin: 10px;
+    order: +1; /* Change the order to place the video below the text */
+  }
+}
+
+/* Media Query for Tablet Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .infoCardTextWrapperSecondary {
+    width: 50%;
+    margin-right: 2%;
+  }
+
+  .infoCardTitleSecondary {
     font-size: 48px;
   }
 

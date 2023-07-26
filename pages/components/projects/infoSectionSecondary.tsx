@@ -8,21 +8,21 @@ type InfoSectionProps = {
   thumbnail: string;
 };
 
-export default function InfoSectionPrimary(props: InfoSectionProps) {
+export default function InfoSectionSecondary(props: InfoSectionProps) {
   return (
     <section id="infoSecondary" className="container mx-auto">
       <div className="projectInfoCard">
-        <div className="infoCard bg-customblue-50">
-          <div className="infoCardTextWrapper">
-            <div className="infoCardTitle">
+        <div className="infoCard bg-charcoal-100">
+          <ProjectVideo url={props.video} thumbnail={props.thumbnail} />
+          <div className="infoCardTextWrapperSecondary">
+            <div className="infoCardTitleSecondary">
               <h3>{props.title}</h3>
             </div>
 
-            <div className="infoCardDesc">
+            <div className="infoCardDescSecondary">
               <p>{props.desc}</p>
             </div>
           </div>
-          <ProjectVideo url={props.video} thumbnail={props.thumbnail} />
         </div>
       </div>
     </section>
