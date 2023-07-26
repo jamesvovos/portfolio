@@ -13,7 +13,7 @@ export default function FigmaShowcase() {
             </h3>
           </div>
 
-          <div className="relative text-base md:text-lg lg:text-xl xl:text-lg py-10 text-white font-poppins mx-6 md:mx-20 xl:mx-80">
+          <div className="relative text-base md:text-lg lg:text-xl xl:text-lg py-10 text-white font-poppins mx-6 md:mx-20 xl:mx-60">
             <p>
               Designed multiple prototypes after discussions with key
               stakeholders and user testing. I designed the mobile device
@@ -24,7 +24,7 @@ export default function FigmaShowcase() {
             </p>
           </div>
         </div>
-        <div className="mx-auto md:mx-20 xl:mx-80">
+        <div className="mx-auto md:mx-20 xl:mx-60">
           <Image
             src={figma}
             alt="Figma Designs Example"

@@ -54,6 +54,12 @@ export default function Project() {
               video="https://youtu.be/ron3H1-aqj4"
               thumbnail=""
             />
+            <InfoSectionSecondary
+              title="CLOCS-A"
+              desc="Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps."
+              video="https://youtu.be/ron3H1-aqj4"
+              thumbnail=""
+            />
           </div>
           <div>
             <Footer />
