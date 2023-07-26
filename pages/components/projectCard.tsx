@@ -2,15 +2,11 @@ import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 
-import st from "../../public/assets/images/stripes.svg";
-import sq from "../../public/assets/images/square.svg";
-
 import img from "../../public/assets/images/clocs.png";
 import img2 from "../../public/assets/images/game-asset-generator.png";
 import img3 from "../../public/assets/images/ai.png";
 import img4 from "../../public/assets/images/game-project.png";
 
-import ProjectVideo from "./projectVideo";
 const data = [
   {
     id: 1,
@@ -96,12 +92,6 @@ export default function ProjectCard() {
                 <div className="miniContainerDiv">
                   <span className="demoImg">
                     <Image src={image} alt={title} className="projectImage" />
-                  </span>
-                  <span className="square">
-                    <Image src={sq} alt="Square" className="square" />
-                  </span>
-                  <span className="stripes">
-                    <Image src={st} alt="Stripes" className="stripes" />
                   </span>
                 </div>
 

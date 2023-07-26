@@ -22,7 +22,9 @@ export default function InfoSectionPrimary(props: InfoSectionProps) {
               <p>{props.desc}</p>
             </div>
           </div>
-          <ProjectVideo url={props.video} thumbnail={props.thumbnail} />
+          <div className="player-wrapper">
+            <ProjectVideo url={props.video} thumbnail={props.thumbnail} />
+          </div>
         </div>
       </div>
     </section>

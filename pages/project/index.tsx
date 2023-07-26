@@ -1,8 +1,14 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import ProjectBanner from "../components/projects/projectBanner";
+import ProjectTechStack from "../components/projects/projectTechStack";
 import InfoSectionPrimary from "../components/projects/infoSectionPrimary";
 import InfoSectionSecondary from "../components/projects/infoSectionSecondary";
+
+import Image from "next/image";
+import st from "../../public/assets/images/stripes.svg";
+import sq from "../../public/assets/images/square.svg";
 
 export default function Project() {
   return (
@@ -18,6 +24,14 @@ export default function Project() {
         <section className="min-h-screen">
           <Navbar />
           <div>
+            <span className="square">
+              <Image src={sq} alt="Square" className="square" />
+            </span>
+            <span className="stripes">
+              <Image src={st} alt="Stripes" className="stripes" />
+            </span>
+            <ProjectBanner />
+            <ProjectTechStack />
             <InfoSectionPrimary
               title="CLOCS-A"
               desc="Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps."

@@ -11,6 +11,7 @@ module.exports = {
         sourcecode: "sourcecode",
         drukwideweb: "drukwideweb",
         poppins: "poppins",
+        poppinsbold: "poppins-bold",
       },
       colors: {
         customblue: {

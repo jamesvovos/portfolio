@@ -10,15 +10,13 @@ type Props = {
 
 export default function ProjectVideo(props: Props) {
   return (
-    <div className="player-wrapper">
-      <ReactPlayer
-        className="react-player"
-        width="100%"
-        url={props.url}
-        light={props.thumbnail}
-        controls={true}
-        playing={true}
-      />
-    </div>
+    <ReactPlayer
+      className="react-player"
+      width="100%"
+      url={props.url}
+      light={props.thumbnail}
+      controls={true}
+      playing={true}
+    />
   );
 }

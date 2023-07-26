@@ -13,7 +13,9 @@ export default function InfoSectionSecondary(props: InfoSectionProps) {
     <section id="infoSecondary" className="container mx-auto">
       <div className="projectInfoCard">
         <div className="infoCard bg-charcoal-100">
-          <ProjectVideo url={props.video} thumbnail={props.thumbnail} />
+          <div className="player-wrapper">
+            <ProjectVideo url={props.video} thumbnail={props.thumbnail} />
+          </div>
           <div className="infoCardTextWrapperSecondary">
             <div className="infoCardTitleSecondary">
               <h3>{props.title}</h3>

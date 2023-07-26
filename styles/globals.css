@@ -104,27 +104,27 @@ a {
 
 .square {
   position: absolute;
-  top: -60px;
-  right: -60px;
-  width: 250px; /* Adjust the width as per your requirements */
-  height: 250px; /* Adjust the height as per your requirements */
-  z-index: 2; /* Ensure the scribble appears above the image */
+  top: 60px;
+  right: -40px;
+  width: 350px; /* Adjust the width as per your requirements */
+  height: 350px; /* Adjust the height as per your requirements */
+  z-index: 0; /* Ensure the scribble appears above the image */
 }
 
 .stripes {
   position: absolute;
-  bottom: 0px;
+  bottom: 300px;
   left: -10px;
-  width: 80px; /* Adjust the width as per your requirements */
-  height: 80px; /* Adjust the height as per your requirements */
+  width: 150px; /* Adjust the width as per your requirements */
+  height: 150px; /* Adjust the height as per your requirements */
   z-index: 2; /* Ensure the scribble appears above the image */
 }
 
 .demoImg {
   align-self: center;
   position: absolute;
-  width: 90%; /* Adjust the width as per your requirements */
-  height: 80%; /* Adjust the height as per your requirements */
+  width: 95%; /* Adjust the width as per your requirements */
+  height: 90%; /* Adjust the height as per your requirements */
   z-index: 1; /* Ensure the scribble appears above the image */
   border-radius: 24px;
 }
