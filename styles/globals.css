@@ -82,6 +82,21 @@ a {
   height: 100%;
 }
 
+/* Responsive sizing for mobile devices */
+@media (max-width: 768px) {
+  .icon-wrapper {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon-wrapper {
+    width: 24px;
+    height: 24px;
+  }
+}
+
 /* Projects Component Styling */
 .projects {
   margin-top: 1rem;
