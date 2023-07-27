@@ -51,21 +51,21 @@ export default function Project() {
               />
             </span>
             <InfoSectionSecondary
-              title="CLOCS-A"
-              desc="Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps."
-              video="https://youtu.be/ron3H1-aqj4"
+              title="FLEET MANAGER APP"
+              desc="React JS web application built for fleet managers to create custom driving routes for their drivers that ensured safety compliance. GPS tracking, geofencing and alerts were built in. The app also handled driver documentation and stored valid licenses and driver training documentation."
+              video="https://youtu.be/iQ1qZaBE660"
               thumbnail=""
             />
             <InfoSectionPrimary
-              title="CLOCS-A"
-              desc="Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps."
-              video="https://youtu.be/ron3H1-aqj4"
+              title="DRIVER APP"
+              desc="React Native mobile app built to handle both iOS and Android support. Allows drivers to safely navigate custom routes pre-approved and assigned by their fleet manager. Incorporates turn-by-turn navigation instructions via Mapbox SDK & API. Empowers drivers to log safety concerns as they arise, and complete their pre-start safety check on their vehicle all in one place before they start their journey."
+              video="https://youtu.be/WEgloW9vE_w"
               thumbnail=""
             />
             <InfoSectionSecondary
-              title="CLOCS-A"
-              desc="Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps."
-              video="https://youtu.be/ron3H1-aqj4"
+              title="SITE MANAGER APP"
+              desc="React Native app built to allow site managers (those who allow trucks onto construction sites) to view their licenses, documentation, routes and notify relevant parties of any safety issues or compliance concerns as they arrive onto site."
+              video="https://youtu.be/V68r1S8cycU"
               thumbnail=""
             />
           </div>

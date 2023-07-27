@@ -1,5 +1,5 @@
 import React from "react";
-import { SiReact, SiAwsamplify, SiGraphql } from "react-icons/si";
+import { SiReact, SiAwsamplify, SiGraphql, SiMapbox } from "react-icons/si";
 
 import dynamic from "next/dynamic";
 const ReactTooltip = dynamic(() => import("react-tooltip"), { ssr: false });
@@ -18,6 +18,9 @@ export default function ProjectTechStack() {
           </span>{" "}
           <span className="text-customblue-50">
             <SiGraphql className="cursor-pointer" data-tip="GraphQL" />
+          </span>{" "}
+          <span className="text-customblue-50">
+            <SiMapbox className="cursor-pointer" data-tip="Mapbox" />
           </span>{" "}
           <ReactTooltip />
         </div>
