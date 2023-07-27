@@ -305,10 +305,7 @@ textarea::placeholder {
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .square {
-    top: 110px;
-    right: -45px;
-    width: 150px; /* Adjust the width as per your requirements */
-    height: 150px; /* Adjust the height as per your requirements */
+    display: none;
   }
 
   .stripes {
