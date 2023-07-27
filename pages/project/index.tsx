@@ -10,6 +10,7 @@ import InfoSectionSecondary from "../components/projects/infoSectionSecondary";
 import Image from "next/image";
 import st from "../../public/assets/images/stripes.svg";
 import sq from "../../public/assets/images/square.svg";
+import sc from "../../public/assets/images/scribble.svg";
 
 export default function Project() {
   return (
@@ -42,6 +43,13 @@ export default function Project() {
             <ProjectBanner />
             <ProjectTechStack />
             <FigmaShowcase />
+            <span className="scribble">
+              <Image
+                src={sc}
+                alt="Scribble"
+                className="scribble absolute overflow-hidden"
+              />
+            </span>
             <InfoSectionSecondary
               title="CLOCS-A"
               desc="Final Year Capstone project in collaboration with Transport NSW & CLOCS-A. Initiative to develop several-cutting edge mobile apps that help construction and logistics companies across Australia monitor and adhere to compliance standards in trucking logistics. Collaborated with a team of 4 incredible developers to build 3 fully integrated apps."

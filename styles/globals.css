@@ -118,6 +118,14 @@ a {
   z-index: 0; /* Ensure the scribble appears above the image */
 }
 
+.scribble {
+  top: 870px;
+  right: -80px;
+  width: 400px; /* Adjust the width as per your requirements */
+  height: 395px; /* Adjust the height as per your requirements */
+  z-index: 2; /* Ensure the scribble appears above the image */
+}
+
 .demoImg {
   align-self: center;
   position: absolute;
@@ -310,15 +318,25 @@ textarea::placeholder {
     height: 100px; /* Adjust the height as per your requirements */
     z-index: 0;
   }
+
+  /* Hide the "scribble" image container on tablet and mobile screens */
+  .scribble {
+    display: none;
+  }
 }
 
 /* Media Query for Tablet Devices */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1324px) {
   .stripes {
     top: 600px;
     left: -10px;
     width: 100px; /* Adjust the width as per your requirements */
     height: 100px; /* Adjust the height as per your requirements */
     z-index: 2;
+  }
+
+  /* Hide the "scribble" image container on tablet and mobile screens */
+  .scribble {
+    display: none;
   }
 }
