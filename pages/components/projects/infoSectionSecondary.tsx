@@ -19,7 +19,7 @@ export default function InfoSectionSecondary(props: InfoSectionProps) {
 
         {/* Title and description */}
         <div className="md:w-1/2 md:flex md:flex-col md:text-center lg:text-right px-5 py-5">
-          <div className="relative text-4xl md:text-6xl py-2 text-customblue-50 font-poppinsbold">
+          <div className="relative text-4xl md:text-5xl py-2 text-customblue-50 font-poppinsbold">
             <h3>{props.title}</h3>
           </div>
 
