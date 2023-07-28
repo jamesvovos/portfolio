@@ -9,11 +9,14 @@ export default function About() {
         <span className="titleSymbol">()</span>
       </div>
       <div>
-        <p className="text-lg py-2 leading-8 text-white text-center">
+        <p className="text-base py-2 leading-8 text-white text-center md:text-l lg:text-lg xl:text-lg">
           As a software engineer, I have had the opportunity to work on projects
           that positively impact individuals across Australia. My work spans
           from collaborating with{" "}
-          <span className="text-customblue-50"> Transport NSW & CLOCS-A </span>{" "}
+          <span className="text-customblue-50 text-base md:text-l lg:text-lg xl:text-lg">
+            {" "}
+            Transport NSW & CLOCS-A{" "}
+          </span>{" "}
           to develop several cutting-edge mobile apps that help construction and
           logistics companies across Australia monitor and adhere to compliance
           standards in trucking logistics, to collaborating with agile startups

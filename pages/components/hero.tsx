@@ -46,7 +46,17 @@ export default function Hero({}: Props) {
           <AiFillLinkedin className="cursor-pointer" />
         </a>
       </div>
-      <div className="relative mx-auto bg-gradient-to-b from-customblue-50 rounded-full w-80 h-80 mt-20 overflow-hidden">
+      <div
+        className="relative mx-auto bg-gradient-to-b from-customblue-50 rounded-full w-80 h-80 mt-20 overflow-hidden"
+        style={{
+          width: "80vw",
+          height: "80vw",
+          maxWidth: "300px",
+          maxHeight: "300px",
+        }}
+      >
+        {" "}
+        // Responsive image size
         <Image
           src={profile}
           fill={true}
