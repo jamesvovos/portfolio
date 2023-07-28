@@ -16,7 +16,7 @@ export default function ProjectVideo(props: Props) {
       url={props.url}
       light={props.thumbnail}
       controls={true}
-      playing={true}
+      playing={false}
     />
   );
 }

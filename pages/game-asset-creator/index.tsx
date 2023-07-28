@@ -14,6 +14,7 @@ import sc from "../../public/assets/images/scribble.svg";
 import forest from "../../public/assets/images/forest.png";
 
 export default function Project() {
+  const techStack = ["python"];
   return (
     <div>
       <Head>
@@ -46,7 +47,7 @@ export default function Project() {
               desc="Procedurally generate game assets using artificial intelligence, custom pipelines and natural language processing (NLP). Create game assets from simple prompts such as a game description and theme. Utilises dreambooth research from Google and custom trained deep learning text-to-image generation models."
               video="https://youtu.be/JbxVSpukm7I"
             />
-            <ProjectTechStack />
+            <ProjectTechStack techStack={techStack} />
             <ShowcaseSection
               title="SAMPLE AI OUTPUT"
               desc="Here is a sample output our procedural pipeline created. This art was produced off of 2 simple inputs. One being a simple {theme} and the other being the {scene} of our game world. In this example 'skyrim' was the {theme} and 'set in the dark forests of Gloomhaven. The forest is looming with darkness and mystery with a river that glows blue at night for some reason. It evokes a sense of danger and foreboding, complimented by a misty atmosphere' was the {scene} in which our procedural model drew inspiration from."

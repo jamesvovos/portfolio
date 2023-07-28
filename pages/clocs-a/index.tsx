@@ -14,6 +14,8 @@ import sc from "../../public/assets/images/scribble.svg";
 import figma from "../../public/assets/images/figma.png";
 
 export default function Project() {
+  const techStack = ["react", "awsamplify", "graphql", "mapbox"];
+
   return (
     <div>
       <Head>
@@ -51,7 +53,7 @@ export default function Project() {
           apps."
               video="https://youtu.be/ron3H1-aqj4"
             />
-            <ProjectTechStack />
+            <ProjectTechStack techStack={techStack} />
             <ShowcaseSection
               title="FIGMA DESIGNS"
               desc="Designed multiple prototypes after discussions with key stakeholders and user testing. I designed the mobile device prototypes to match client specifications using Figma. This process involved using a collaborative approach with key stakeholders, and critical thinking to turn requirements into high quality code."
