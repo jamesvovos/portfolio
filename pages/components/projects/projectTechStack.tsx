@@ -11,7 +11,7 @@ import dynamic from "next/dynamic";
 const ReactTooltip = dynamic(() => import("react-tooltip"), { ssr: false });
 
 type ProjectTechStackProps = {
-  techStack: string[];
+  techStack?: string[]; // Make techStack prop optional
 };
 
 const iconMap: { [key: string]: any } = {
@@ -26,7 +26,7 @@ const iconMap: { [key: string]: any } = {
 export default function ProjectTechStack(
   props: ProjectTechStackProps
 ): ReactElement {
-  const { techStack } = props;
+  const { techStack = [] } = props; // Set default value for techStack prop
 
   return (
     <section className="text-center">
