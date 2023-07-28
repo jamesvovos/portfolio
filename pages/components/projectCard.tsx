@@ -80,6 +80,9 @@ export default function ProjectCard() {
                     <span className="demoImg">
                       <Image src={image} alt={title} className="projectImage" />
                     </span>
+                    <div className="hoverContent">
+                      <p>Click To View Project</p>{" "}
+                    </div>
                   </div>
                 </Link>
 
