@@ -56,7 +56,6 @@ export default function Hero({}: Props) {
         }}
       >
         {" "}
-        // Responsive image size
         <Image
           src={profile}
           fill={true}
