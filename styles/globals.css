@@ -72,6 +72,9 @@ a {
   border-radius: 10px;
   height: 100%;
   background: #f8f5f2;
+
+  /* Set a fixed height for each row in the grid */
+  grid-template-rows: auto auto auto 1fr; /* Adjust as needed based on your content */
 }
 
 .singleProject:hover {
@@ -89,16 +92,13 @@ a {
   color: #0062fd;
 }
 
+/* Set aspect ratio for the .miniContainerDiv */
 .miniContainerDiv {
-  width: auto;
-  height: 350px;
+  aspect-ratio: 16/9; /* Set the desired aspect ratio (e.g., 16:9) */
   border-radius: 5px;
   overflow: hidden;
-  cursor: pointer;
   background-color: #f8f5f2;
   position: relative;
-  display: flex; /* Use flexbox to center the content */
-  justify-content: center; /* Horizontally center the content */
 }
 
 /* Blue overlay on hover */
