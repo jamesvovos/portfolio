@@ -377,6 +377,16 @@ textarea::placeholder {
   .scribble {
     display: none;
   }
+
+  /* Hover animation on project cards on mobile screens */
+  .hoverContent {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: none;
+    text-align: center; /* Center the text horizontally */
+    width: 100%;
+  }
 }
 
 /* Media Query for Tablet Devices */
