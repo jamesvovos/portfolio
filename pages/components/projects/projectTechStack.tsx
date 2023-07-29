@@ -5,6 +5,7 @@ import {
   SiGraphql,
   SiMapbox,
   SiPython,
+  SiCplusplus,
 } from "react-icons/si";
 
 import dynamic from "next/dynamic";
@@ -20,6 +21,7 @@ const iconMap: { [key: string]: any } = {
   graphql: SiGraphql,
   mapbox: SiMapbox,
   python: SiPython,
+  cplusplus: SiCplusplus,
   // Add more icons and their corresponding names here
 };
 

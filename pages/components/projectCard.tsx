@@ -45,9 +45,9 @@ const data = [
   {
     id: 4,
     image: img4,
-    link: "/clocs-a",
+    link: "/custom-game",
     github: "https://github.com/jamesvovos/game-dev-custom-project",
-    title: "Software Design Patterns Game",
+    title: "Custom Game",
     desc: "Custom game project showcasing the implementation of different software design patterns and data structures built in C++. This includes the state, composite, component, command and factory design patterns, as well as a graph/node data structure to represent the game world with different locations with adjacent location nodes.",
     tech1: "C++",
     tech2: "Raylib",
