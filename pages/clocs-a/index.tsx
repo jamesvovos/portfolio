@@ -11,7 +11,11 @@ import Image from "next/image";
 import st from "../../public/assets/images/stripes.svg";
 import sq from "../../public/assets/images/square.svg";
 import sc from "../../public/assets/images/scribble.svg";
+
 import figma from "../../public/assets/images/figma.png";
+import fleet from "../../public/assets/images/fleet.png";
+import driver from "../../public/assets/images/clocs.png";
+import site from "../../public/assets/images/site.png";
 
 export default function Project() {
   const techStack = ["react", "awsamplify", "graphql", "mapbox"];
@@ -67,22 +71,19 @@ export default function Project() {
               />
             </span>
             <InfoSectionSecondary
-              title="FLEET MANAGER APP"
+              title="Fleet Manager App"
               desc="React JS web application built for fleet managers to create custom driving routes for their drivers that ensured safety compliance. GPS tracking, geofencing and alerts were built in. The app also handled driver documentation and stored valid licenses and driver training documentation."
-              video="https://youtu.be/iQ1qZaBE660"
-              thumbnail=""
+              image={fleet}
             />
             <InfoSectionPrimary
-              title="DRIVER APP"
+              title="Driver App"
               desc="React Native mobile app built to handle both iOS and Android support. Allows drivers to safely navigate custom routes pre-approved and assigned by their fleet manager. Incorporates turn-by-turn navigation instructions via Mapbox SDK & API. Empowers drivers to log safety concerns as they arise, and complete their pre-start safety check on their vehicle all in one place before they start their journey."
-              video="https://youtu.be/WEgloW9vE_w"
-              thumbnail=""
+              image={driver}
             />
             <InfoSectionSecondary
-              title="SITE MANAGER APP"
+              title="Site Manager App"
               desc="React Native app built to allow site managers (those who allow trucks onto construction sites) to view their licenses, documentation, routes and notify relevant parties of any safety issues or compliance concerns as they arrive onto site."
-              video="https://youtu.be/V68r1S8cycU"
-              thumbnail=""
+              image={site}
             />
           </div>
           <div>

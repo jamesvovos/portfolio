@@ -11,7 +11,12 @@ import Image from "next/image";
 import st from "../../public/assets/images/stripes.svg";
 import sq from "../../public/assets/images/square.svg";
 import sc from "../../public/assets/images/scribble.svg";
-import figma from "../../public/assets/images/figma.png";
+
+import graph from "../../public/assets/images/graph.svg";
+import command from "../../public/assets/images/commands.svg";
+import state from "../../public/assets/images/states.svg";
+import composite from "../../public/assets/images/composite.svg";
+import component from "../../public/assets/images/component.svg";
 
 export default function Project() {
   const techStack = ["cplusplus"];
@@ -49,7 +54,11 @@ export default function Project() {
               video="https://youtu.be/yAHBWlFMhCU"
             />
             <ProjectTechStack techStack={techStack} />
-            <ShowcaseSection title="DESIGN DOC" desc="" image={figma} />
+            <ShowcaseSection
+              title="DATA & PATTERNS"
+              desc="The game utilised graph and node data structures to represent the game world and locations. Each location has a list of adjacent nodes (or locations they can travel/traverse to). Different software design patterns were applied to the architecture of the game (which was built using a graphics library called Raylib and C++)."
+              image={graph}
+            />
             <span className="scribble">
               <Image
                 src={sc}
@@ -58,22 +67,39 @@ export default function Project() {
               />
             </span>
             <InfoSectionSecondary
-              title="COMPOSITE PATTERN"
-              desc=""
-              video=""
-              thumbnail=""
+              title="Command Pattern"
+              desc="The command pattern is utilised to handle/invoke commands in my game. This
+              allows us to abstract out the 'command request' as a standalone object. Which means we can
+              have different commands that follow their own method of execution(). These commands can
+              be invoked via a 'CommandProcessor'. Each command will have their own receiver (or
+              controller) in which can choose which commands it wants to run (in this case the receiver is
+              our Player class)"
+              image={command}
             />
             <InfoSectionPrimary
-              title="COMMAND PATTERN"
-              desc=""
-              video=""
-              thumbnail=""
+              title="Composite Pattern"
+              desc="The composite pattern is utilised to handle entities/items in our game world. This
+              allows us to treat a group of objects in a similar way to a single object. For example: if we take
+              the example of a “backpack”... Well, a backpack can contain “items” such as a “sword” a
+              “potion”... But it may also contain items that group a collection of items. Think of a “wallet”
+              that can be put in a backpack that can hold coins, credit cards, etc.
+              How we handle both the 'composite' of items and a 'singular' item should be handled in a
+              singular way."
+              image={composite}
             />
             <InfoSectionSecondary
-              title="STATE PATTERN"
-              desc=""
-              video=""
-              thumbnail=""
+              title="State Pattern"
+              desc=" The state pattern is utilised to handle changes between different 'menu' states within my custom project. This utilises a 'GameManager' which managers the changes between different states on the stack. Different states include the 'MainMenu', 'Gameplay', 'QuitGame', 'About', etc (which have their own update() and render() functions which can be called in our main game loop/window)."
+              image={state}
+            />
+            <InfoSectionPrimary
+              title="Component Pattern"
+              desc="The component pattern is utilised to avoid deep nested trees of inheritance in our
+              game design. Instead of giving our 'enemy' or 'player' class (as examples), variables to their
+              health, mana or attack attributes we decoupled our code by aiming to give our entities a
+              bunch of 'attributes' and 'actions' objects which can be stored in a dictionary/map in the
+              classes that need them."
+              image={component}
             />
           </div>
           <div>

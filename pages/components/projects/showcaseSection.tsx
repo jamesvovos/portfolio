@@ -18,7 +18,7 @@ export default function ShowcaseSection(props: ShowcaseSectionProps) {
             </h3>
           </div>
 
-          <div className="relative text-base md:text-lg lg:text-xl xl:text-lg py-10 text-white font-poppins mx-6 md:mx-20 xl:mx-80">
+          <div className="relative text-sm md:text-lg lg:text-xl xl:text-lg py-10 text-white font-poppins mx-6 md:mx-20 xl:mx-80">
             <p>{props.desc}</p>
           </div>
         </div>

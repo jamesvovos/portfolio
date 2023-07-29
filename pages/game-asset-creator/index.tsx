@@ -60,24 +60,6 @@ export default function Project() {
                 className="scribble absolute overflow-hidden"
               />
             </span>
-            <InfoSectionSecondary
-              title="CUSTOM PIPELINES"
-              desc=""
-              video="https://youtu.be/JbxVSpukm7I"
-              thumbnail=""
-            />
-            <InfoSectionPrimary
-              title="DIFFUSION MODELS"
-              desc=""
-              video="https://youtu.be/JbxVSpukm7I"
-              thumbnail=""
-            />
-            <InfoSectionSecondary
-              title="LLMS"
-              desc=""
-              video="https://youtu.be/JbxVSpukm7I"
-              thumbnail=""
-            />
           </div>
           <div>
             <Footer />

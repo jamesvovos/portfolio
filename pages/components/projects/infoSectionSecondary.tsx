@@ -1,20 +1,23 @@
 import React from "react";
-import ProjectVideo from "../projectVideo";
+import Image from "next/image";
 
 type InfoSectionProps = {
   title: string;
   desc: string;
-  video: string;
-  thumbnail: string;
+  image: any;
 };
 
 export default function InfoSectionSecondary(props: InfoSectionProps) {
   return (
     <section id="infoSectionSecondary" className="container mx-auto m-10">
       <div className="bg-charcoal-100 flex flex-col md:flex-row text-center md:text-left rounded-xl">
-        {/* Video on larger screens */}
+        {/* Image on larger screens */}
         <div className="md:w-1/2 order-last md:order-first py-5 px-5">
-          <ProjectVideo url={props.video} thumbnail={props.thumbnail} />
+          <Image
+            src={props.image}
+            alt={props.title}
+            style={{ objectFit: "fill", width: "100%", height: "100%" }}
+          />
         </div>
 
         {/* Title and description */}
@@ -23,7 +26,7 @@ export default function InfoSectionSecondary(props: InfoSectionProps) {
             <h3>{props.title}</h3>
           </div>
 
-          <div className="relative text-base md:text-l lg:text-l xl:text-lg text-white font-poppins">
+          <div className="relative text-sm md:text-l lg:text-l xl:text-lg text-white font-poppins">
             <p>{props.desc}</p>
           </div>
         </div>

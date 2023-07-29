@@ -15,7 +15,7 @@ export default function ProjectBanner(props: ProjectBannerProps) {
         <h2 className="relative text-4xl md:text-6xl lg:text-8xl py-2 text-customblue-50 font-poppinsbold">
           {props.title}
         </h2>
-        <h3 className="relative text-base md:text-lg py-2 text-black font-poppins">
+        <h3 className="relative text-sm md:text-lg py-2 text-black font-poppins">
           {props.desc}
         </h3>
       </div>
