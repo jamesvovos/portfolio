@@ -6,6 +6,9 @@ import {
   SiMapbox,
   SiPython,
   SiCplusplus,
+  SiFastapi,
+  SiPytorch,
+  SiPostgresql,
 } from "react-icons/si";
 
 import dynamic from "next/dynamic";
@@ -22,6 +25,9 @@ const iconMap: { [key: string]: any } = {
   mapbox: SiMapbox,
   python: SiPython,
   cplusplus: SiCplusplus,
+  fastapi: SiFastapi,
+  pytorch: SiPytorch,
+  postgresql: SiPostgresql,
   // Add more icons and their corresponding names here
 };
 
