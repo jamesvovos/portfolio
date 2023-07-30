@@ -84,15 +84,14 @@ export default function Project() {
             <InfoSectionSecondary
               title="PROMPTS"
               desc="In order for users to be able to customise how they want each item to be stylised or created, I needed to
-              provide my deep-learning text to image models with prompts to curate game assets to match tylistic
-              preferences. To do this, I created a Prompts class, where essentially different types of prompts are
+              provide my deep-learning text to image models with prompts to curate game assets to suit the stylistic
+              preferences of users. To do this, I created a 'Prompts' class, where essentially different types of prompts are
               utilised, based on the type of asset users would like to create.
               For example: for game items we might want to design a prompt to specify whether we want the item
               to render as a highly realistic octane render, or a 2D sprite sheet. Alternatively, we may also want
               to render completely different types of assets such as textures, isometrics, maps, etc. Our prompt
               class allows us to create and tweak our prompts, based on the specific style requirements for the
-              game asset types developers would like to create. This was designed in a modular and low-coupled
-              manner.
+              game asset types developers would like to create.
               "
               image={promptuml}
             />
@@ -103,7 +102,7 @@ export default function Project() {
               access to custom fine-tuned models that were trained on more specific data building on top of
               Stable Diffusion’s open source model. They also provide access to a web interface and API
               that allowed me to train my own custom model via DreamBooth. By leveraging my own training data, I
-              was then able to train custom fine-tuned models to generate higher quality image renders."
+              was then able to train custom fine-tune my own models to generate higher quality image renders."
               image={dreambooth}
             />
             <InfoSectionSecondary
@@ -113,7 +112,7 @@ export default function Project() {
             />
             <InfoSectionPrimary
               title="USER INTERFACE"
-              desc="I created a basic web app in Python utilising the Streamlit library. The user-interface aims to showcase
+              desc="I created a basic web app in Python using the Streamlit library. The user-interface aims to showcase
               the ease of use and efficiency in generating 2D game assets, from minimal human input.
               2D game assets such as game world items, textures, non-player character quests, objectives, items
               and even character backstories and dialogue can all be generated from a simple prompt."
@@ -121,9 +120,9 @@ export default function Project() {
             />
             <InfoSectionSecondary
               title="SAMPLE TEXT OUTPUT"
-              desc="Here is an example of some starter dialogue our AI model generated from a simple theme and game scene (This was done procedurally, after the model created characters and character backstory based on the initial inputs). Our domain specific context primarily focused on generating 2D game assets involved in creating
+              desc="Here is an example of some starter dialogue our AI model generated from a simple theme and game scene (This was done procedurally, after the model created characters and character backstory based on the initial inputs). The domain specific context of the application primarily focused on generating 2D game assets involved in creating
               non-player character quests; such as items, storyline, dialogue, objectives and non-player character
-              backstories. However, our architecture can easily be extended to create more technical assets, due to
+              backstories. However, the architecture can easily be extended to create more technical assets, due to
               its modular structure."
               image={dialogue}
             />
