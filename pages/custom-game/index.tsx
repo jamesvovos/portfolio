@@ -55,7 +55,7 @@ export default function Project() {
             />
             <ProjectTechStack techStack={techStack} />
             <ShowcaseSection
-              title="DATA & PATTERNS"
+              title="GAME DESIGN"
               desc="The game utilised graph and node data structures to represent the game world and locations. Each location has a list of adjacent nodes (or locations they can travel/traverse to). Different software design patterns were applied to the architecture of the game (which was built using a graphics library called Raylib and C++)."
               image={graph}
             />
@@ -67,7 +67,7 @@ export default function Project() {
               />
             </span>
             <InfoSectionSecondary
-              title="Command Pattern"
+              title="COMMAND PATTERN"
               desc="The command pattern is utilised to handle/invoke commands in my game. This
               allows us to abstract out the 'command request' as a standalone object. Which means we can
               have different commands that follow their own method of execution(). These commands can
@@ -77,7 +77,7 @@ export default function Project() {
               image={command}
             />
             <InfoSectionPrimary
-              title="Composite Pattern"
+              title="COMPOSITE PATTERN"
               desc="The composite pattern is utilised to handle entities/items in our game world. This
               allows us to treat a group of objects in a similar way to a single object. For example: if we take
               the example of a “backpack”... Well, a backpack can contain “items” such as a “sword” a
@@ -88,12 +88,12 @@ export default function Project() {
               image={composite}
             />
             <InfoSectionSecondary
-              title="State Pattern"
+              title="STATE PATTERN"
               desc=" The state pattern is utilised to handle changes between different 'menu' states within my custom project. This utilises a 'GameManager' which managers the changes between different states on the stack. Different states include the 'MainMenu', 'Gameplay', 'QuitGame', 'About', etc (which have their own update() and render() functions which can be called in our main game loop/window)."
               image={state}
             />
             <InfoSectionPrimary
-              title="Component Pattern"
+              title="COMPONENT PATTERN"
               desc="The component pattern is utilised to avoid deep nested trees of inheritance in our
               game design. Instead of giving our 'enemy' or 'player' class (as examples), variables to their
               health, mana or attack attributes we decoupled our code by aiming to give our entities a

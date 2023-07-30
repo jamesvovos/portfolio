@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import img from "../../public/assets/images/clocs.png";
 import img2 from "../../public/assets/images/game-asset-generator.png";
-import img3 from "../../public/assets/images/ai.png";
+import img3 from "../../public/assets/images/api.png";
 import img4 from "../../public/assets/images/game-project.png";
 
 const data = [

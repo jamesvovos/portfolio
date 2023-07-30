@@ -71,17 +71,17 @@ export default function Project() {
               />
             </span>
             <InfoSectionSecondary
-              title="Fleet Manager App"
+              title="FLEET MANAGER APP"
               desc="React JS web application built for fleet managers to create custom driving routes for their drivers that ensured safety compliance. GPS tracking, geofencing and alerts were built in. The app also handled driver documentation and stored valid licenses and driver training documentation."
               image={fleet}
             />
             <InfoSectionPrimary
-              title="Driver App"
+              title="DRIVER APP"
               desc="React Native mobile app built to handle both iOS and Android support. Allows drivers to safely navigate custom routes pre-approved and assigned by their fleet manager. Incorporates turn-by-turn navigation instructions via Mapbox SDK & API. Empowers drivers to log safety concerns as they arise, and complete their pre-start safety check on their vehicle all in one place before they start their journey."
               image={driver}
             />
             <InfoSectionSecondary
-              title="Site Manager App"
+              title="SITE MANAGER APP"
               desc="React Native app built to allow site managers (those who allow trucks onto construction sites) to view their licenses, documentation, routes and notify relevant parties of any safety issues or compliance concerns as they arrive onto site."
               image={site}
             />
