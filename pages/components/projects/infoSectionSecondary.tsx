@@ -12,7 +12,7 @@ export default function InfoSectionSecondary(props: InfoSectionProps) {
     <section id="infoSectionSecondary" className="container mx-auto m-10">
       <div className="bg-charcoal-100 flex flex-col md:flex-row text-center md:text-left rounded-xl">
         {/* Image on larger screens */}
-        <div className="md:w-1/2 order-last md:order-first py-5 px-5">
+        <div className="relative md:w-1/2 order-last md:order-first py-5 px-5">
           <Image
             src={props.image}
             alt={props.title}
