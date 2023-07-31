@@ -78,12 +78,7 @@ export default function ProjectCard() {
                 <Link href={link}>
                   <div className="miniContainerDiv">
                     <span className="demoImg">
-                      <Image
-                        src={image}
-                        alt={title}
-                        className="projectImage"
-                        quality={100}
-                      />
+                      <Image src={image} alt={title} className="projectImage" />
                     </span>
                     <div className="hoverContent">
                       <p>Click To View Project</p>{" "}

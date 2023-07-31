@@ -16,7 +16,6 @@ export default function InfoSectionSecondary(props: InfoSectionProps) {
           <Image
             src={props.image}
             alt={props.title}
-            quality={100}
             style={{ objectFit: "contain", width: "100%", height: "100%" }}
           />
         </div>

@@ -50,7 +50,7 @@ export default function Project() {
             <ProjectBanner
               title="Neural Network API"
               desc="Built a custom neural network model that can be trained via API. The idea behind it was initially a chatbot which evolved to become a NPC creator for games. The API was built using FastAPI and SQLAlchemy. The neural network was built using PyTorch, utilising 3 linear layers and a relu activation function."
-              video="https://youtu.be/JbxVSpukm7I"
+              video="https://youtu.be/0yCwYWaZBHY"
             />
             <ProjectTechStack techStack={techStack} />
             <ShowcaseSection
