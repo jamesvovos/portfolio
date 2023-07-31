@@ -28,6 +28,7 @@ export default function ShowcaseSection(props: ShowcaseSectionProps) {
             alt={props.title}
             width={800}
             height={500}
+            quality={100}
             className="max-w-full"
           />
         </div>

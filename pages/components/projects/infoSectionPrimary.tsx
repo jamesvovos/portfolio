@@ -23,10 +23,11 @@ export default function InfoSectionPrimary(props: InfoSectionProps) {
         </div>
 
         {/* Image on larger screens */}
-        <div className="relative md:w-1/2 md:ml-6 py-5 px-5">
+        <div className="md:w-1/2 md:ml-6 py-5 px-5">
           <Image
             src={props.image}
             alt={props.title}
+            quality={100}
             style={{ objectFit: "contain", width: "100%", height: "100%" }}
           />
         </div>
