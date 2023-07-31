@@ -17,6 +17,7 @@ import command from "../../public/assets/images/commands.svg";
 import state from "../../public/assets/images/states.svg";
 import composite from "../../public/assets/images/composite.svg";
 import component from "../../public/assets/images/component.svg";
+import factory from "../../public/assets/images/factory.svg";
 
 export default function Project() {
   const techStack = ["cplusplus"];
@@ -73,15 +74,15 @@ export default function Project() {
               have different commands that follow their own method of execution(). These commands can
               be invoked via a 'CommandProcessor'. Each command will have their own receiver (or
               controller) in which can choose which commands it wants to run (in this case the receiver is
-              our Player class)"
+              our Player class)."
               image={command}
             />
             <InfoSectionPrimary
               title="COMPOSITE PATTERN"
               desc="The composite pattern is utilised to handle entities/items in our game world. This
               allows us to treat a group of objects in a similar way to a single object. For example: if we take
-              the example of a “backpack”... Well, a backpack can contain “items” such as a “sword” a
-              “potion”... But it may also contain items that group a collection of items. Think of a “wallet”
+              the example of a 'backpack'... Well, a backpack can contain 'items' such as a 'sword' a
+              'potion'... But it may also contain items that group a collection of items. Think of a 'wallet'
               that can be put in a backpack that can hold coins, credit cards, etc.
               How we handle both the 'composite' of items and a 'singular' item should be handled in a
               singular way."
@@ -96,10 +97,17 @@ export default function Project() {
               title="COMPONENT PATTERN"
               desc="The component pattern is utilised to avoid deep nested trees of inheritance in our
               game design. Instead of giving our 'enemy' or 'player' class (as examples), variables to their
-              health, mana or attack attributes we decoupled our code by aiming to give our entities a
+              health, mana or attack attributes... we decoupled our code by aiming to give our entities a
               bunch of 'attributes' and 'actions' objects which can be stored in a dictionary/map in the
               classes that need them."
               image={component}
+            />
+            <InfoSectionSecondary
+              title="FACTORY PATTERN"
+              desc="I attempted to implement the factory design pattern into my game to encapsulate
+              object creation in my program when it came to 'enemies' at runtime. This pattern could also
+              be applied to items in my game, and other entities if the time permitted. However, I ended up removing this component from my games architecture to opt for simpler object creation."
+              image={factory}
             />
           </div>
           <div>

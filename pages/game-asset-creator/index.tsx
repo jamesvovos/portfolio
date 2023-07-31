@@ -58,7 +58,7 @@ export default function Project() {
             <ProjectTechStack techStack={techStack} />
             <ShowcaseSection
               title="SAMPLE AI OUTPUT"
-              desc="Here is a sample output our procedural pipeline created. This art was produced off of 2 simple inputs. One being a simple {theme} and the other being the {scene} of our game world. In this example 'skyrim' was the {theme} and 'set in the dark forests of Gloomhaven. The forest is looming with darkness and mystery with a river that glows blue at night for some reason. It evokes a sense of danger and foreboding, complimented by a misty atmosphere' was the {scene} in which our procedural model drew inspiration from."
+              desc="Here is a sample output the procedural pipeline created. This art was produced off of 2 simple inputs. One being a simple {theme} and the other being the {scene} of our game world. In this example 'skyrim' was the {theme} and 'set in the dark forests of Gloomhaven. The forest is looming with darkness and mystery with a river that glows blue at night for some reason. It evokes a sense of danger and foreboding, complimented by a misty atmosphere' was the {scene} in which our procedural model drew inspiration from."
               image={forest}
             />
             <span className="scribble">
@@ -70,7 +70,7 @@ export default function Project() {
             </span>
             <InfoSectionSecondary
               title="CUSTOM PIPELINES"
-              desc="Game asset creation pipelines could be added or modified depending on the type of 'game assets' a user would like to create. For example if I wanted to create a 'character' in my game I would need a different set of instructions to train my AI model in contrast to creating a 'tree' or a 'potion'. Each set of instructions is different depending on the type of asset we intend to generate.
+              desc="Game asset creation pipelines could be added or modified depending on the type of 'game assets' a user would like to create. For example, if I wanted to create a 'character' in my game I would need a different set of instructions to train my AI model in contrast to creating a 'tree' or a 'potion'. Each set of instructions is different depending on the type of asset we intend to generate.
               "
               image={pipelineuml}
             />
@@ -90,7 +90,7 @@ export default function Project() {
               For example: for game items we might want to design a prompt to specify whether we want the item
               to render as a highly realistic octane render, or a 2D sprite sheet. Alternatively, we may also want
               to render completely different types of assets such as textures, isometrics, maps, etc. Our prompt
-              class allows us to create and tweak our prompts, based on the specific style requirements for the
+              class allows us to create and tweak our prompts, based on the specific style requirements of the
               game asset types developers would like to create.
               "
               image={promptuml}
@@ -99,10 +99,10 @@ export default function Project() {
               title="TEXT-TO-IMAGE GENERATION"
               desc="Our architecture enables the ability to generate game art alongside text-based game assets. This
               could range from: 2D textures, isometric game worlds, game items or pickups, and more. I utilised new research from Google to train my own text-to-image generation model with my own custom data set. To do this, I leveraged Leonardo AI. Leonardo AI provided
-              access to custom fine-tuned models that were trained on more specific data building on top of
+              access to custom fine-tuned models that were trained on more specific data, building on top of
               Stable Diffusion’s open source model. They also provide access to a web interface and API
               that allowed me to train my own custom model via DreamBooth. By leveraging my own training data, I
-              was then able to train custom fine-tune my own models to generate higher quality image renders."
+              was then able to custom fine-tune my own models to generate higher quality image renders."
               image={dreambooth}
             />
             <InfoSectionSecondary

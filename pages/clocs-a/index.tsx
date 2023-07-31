@@ -16,6 +16,8 @@ import figma from "../../public/assets/images/figma.png";
 import fleet from "../../public/assets/images/fleet.png";
 import driver from "../../public/assets/images/clocs.png";
 import site from "../../public/assets/images/site.png";
+import team from "../../public/assets/images/team.png";
+import truck from "../../public/assets/images/truck.jpg";
 
 export default function Project() {
   const techStack = ["react", "awsamplify", "graphql", "mapbox"];
@@ -50,18 +52,18 @@ export default function Project() {
             <ProjectBanner
               title="CLOCS-A"
               desc="Final Year Capstone project in collaboration with Transport NSW &
-          CLOCS-A. Initiative to develop several-cutting edge mobile apps that
+          CLOCS-A. Initiative to develop several-cutting edge apps that
           help construction and logistics companies across Australia monitor and
           adhere to compliance standards in trucking logistics. Collaborated
-          with a team of 4 incredible developers to build 3 fully integrated
+          as a team of 4 developers to build 3 fully integrated
           apps."
               video="https://youtu.be/ron3H1-aqj4"
             />
             <ProjectTechStack techStack={techStack} />
             <ShowcaseSection
-              title="FIGMA DESIGNS"
-              desc="Designed multiple prototypes after discussions with key stakeholders and user testing. I designed the mobile device prototypes to match client specifications using Figma. This process involved using a collaborative approach with key stakeholders, and critical thinking to turn requirements into high quality code."
-              image={figma}
+              title="BACKGROUND"
+              desc="The east coast of Australia has $200 billion in upcoming infrastructure projects over the next decade, mainly in major cities, relying heavily on truck logistics. Ensuring safe truck movements, particularly in urban areas with vulnerable road users, is a key concern for project success. To address this, stakeholders from government, construction, transport, and road safety groups are collaborating on the CLOCS-A program. It follows the Safe System approach, prioritizing road safety and preventing fatalities and severe injuries. The program focuses on designated safe logistics routes for trucks moving between construction sites and supply/offload locations. This proactive approach aims to enhance work-related road safety and support the successful delivery of construction projects."
+              image={truck}
             />
             <span className="scribble">
               <Image
@@ -71,18 +73,30 @@ export default function Project() {
               />
             </span>
             <InfoSectionSecondary
-              title="FLEET MANAGER APP"
-              desc="React JS web application built for fleet managers to create custom driving routes for their drivers that ensured safety compliance. GPS tracking, geofencing and alerts were built in. The app also handled driver documentation and stored valid licenses and driver training documentation."
-              image={fleet}
+              title="AGILE DEVELOPMENT"
+              desc="As a team of four software developers, we designed, built, and user-tested three fully integrated apps. Our team implemented Agile methodologies, specifically using Scrum. This approach facilitated an iterative approach to development and effective communication between relevant stakeholders, whilst ensuring that the project was progressing smoothly and that potential issues were addressed promptly. GitHub and Jira were utilised as project management tools, aiding in version control, issue tracking, and task assignment."
+              image={team}
             />
             <InfoSectionPrimary
+              title="FIGMA DESIGNS"
+              desc="As a team, we began by designing multiple prototypes through discussions with key stakeholders and conducting user testing. Specifically, I took charge of designing both mobile device prototypes to align with client specifications using Figma. This process entailed a collaborative approach with key stakeholders and required critical thinking to transform requirements into high-quality code."
+              image={figma}
+            />
+            <InfoSectionSecondary
               title="DRIVER APP"
-              desc="React Native mobile app built to handle both iOS and Android support. Allows drivers to safely navigate custom routes pre-approved and assigned by their fleet manager. Incorporates turn-by-turn navigation instructions via Mapbox SDK & API. Empowers drivers to log safety concerns as they arise, and complete their pre-start safety check on their vehicle all in one place before they start their journey."
+              desc="A React Native mobile app was developed to seamlessly support both iOS and Android devices for truck drivers. The app empowers truck drivers to safely navigate custom routes, which are pre-approved and assigned by their fleet manager. Leveraging the Mapbox SDK & API, the app provides turn-by-turn navigation instructions, ensuring drivers can reach their destinations with ease, whilst sticking to compliant routes.
+
+              The app also allows drivers to log safety concerns, promoting a proactive approach to safety management. Additionally, drivers can conveniently complete their pre-start vehicle safety checks within the app before commencing their journey."
               image={driver}
+            />
+            <InfoSectionPrimary
+              title="FLEET MANAGER APP"
+              desc="A React JS web application was developed specifically for fleet managers, empowering them to create custom-made driving routes for their drivers while ensuring road safety compliance. These routes were then sent over to the drivers for navigation. The app was equipped with advanced features, including GPS tracking, geofencing, and real-time alerts to enhance driver monitoring and safety. Moreover, the app efficiently managed driver documentation, providing a secure file management system (which was primarily paper based), for valid licenses and driver training records via AWS S3 storage."
+              image={fleet}
             />
             <InfoSectionSecondary
               title="SITE MANAGER APP"
-              desc="React Native app built to allow site managers (those who allow trucks onto construction sites) to view their licenses, documentation, routes and notify relevant parties of any safety issues or compliance concerns as they arrive onto site."
+              desc="The site manager mobile app was also built with React Native. This app offers valuable support to construction site managers by providing easy access to essential information such as drivers' licenses, documentation, and assigned routes before they enter the construction site. This provides communication between fleet managers, site managers and truck drivers whilst notifying relevant parties of any compliance concerns before they became a real issue."
               image={site}
             />
           </div>

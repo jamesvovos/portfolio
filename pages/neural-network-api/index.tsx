@@ -55,7 +55,7 @@ export default function Project() {
             <ProjectTechStack techStack={techStack} />
             <ShowcaseSection
               title="NEURAL NETWORK"
-              desc="Created a feed forward neural network model with 3 linear layers and a relu activation function using PyTorch. This was an attempt to learn more about artificial intelligence, as well as explore PyTorch's open-source library."
+              desc="Created a feed forward neural network model with 3 linear layers and a relu activation function using PyTorch. This was an attempt to learn more about artificial intelligence, as well as explore PyTorch's open source library."
               image={model}
             />
             <span className="scribble">
@@ -77,8 +77,7 @@ export default function Project() {
             />
             <InfoSectionSecondary
               title="DATABASE"
-              desc="Designed and built a relational database model using PostgreSQL. The schema was designed to allow users to train their own AI chat model through an API, rather than a JSON or text file. This was originally built to create non-player characters (NPC's) powered by AI for games. The thought process behind it was that users would able to create their own 'projects or 'game' and within that specific project, a user could add NPC's with different attributes such as voice, style, knowledge, etc. NPCs could also be assigned to projects, and each NPC could have a list of Intents, which included a tag, a list of patterns for the model to recognise and responses.
-              "
+              desc="Designed and built a relational database model using PostgreSQL. The schema was designed to allow users to train their own AI chat model through an API, rather than a JSON or text file. This was originally built to create non-player characters (NPC's) powered by AI for games. The thought process behind this idea was that users would be able to create their own NPC's which would each have their own set of knowledge, voice style and attributes. Essentially, the NPC would only respond based on what it knew from it's knowledge base (which could be provided to it as 'Intents')."
               image={pgadmin}
             />
             <InfoSectionPrimary
