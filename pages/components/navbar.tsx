@@ -51,7 +51,7 @@ function NavBar() {
                 <li
                   className={`text-l text-center bg-customblue-50 px-8 py-4 md:rounded-md hover:bg-customblue-250 ${
                     navbar
-                      ? "h-screen sm:rounded-none bg-transparent text-customblue-50 hover:text-customblue-250 hover:bg-transparent text-xl font-bold underline center" // Increase the z-index when the mobile dropdown is open
+                      ? "h-20 sm:rounded-none bg-transparent text-customblue-50 hover:text-customblue-250 hover:bg-transparent text-xl font-bold underline center" // Increase the z-index when the mobile dropdown is open
                       : "hidden md:block"
                   }`}
                 >
