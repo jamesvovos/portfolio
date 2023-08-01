@@ -37,42 +37,17 @@ function NavBar() {
               </div>
             </div>
           </div>
-          <div className="font-sourcecode z-12">
+          <div className={`font-sourcecode ${navbar ? "z-20" : "z-10"}`}>
+            {/* Apply a higher z-index when the mobile dropdown is open */}
             <div
               className={`flex-1 justify-self-center md:pb-0 md:mt-0 ${
                 navbar
-                  ? "p-12 md:p-0 block bg-charcoal-50 rounded-md z-12"
-                  : "hidden md:block" // Remove the "hidden" class here
+                  ? "p-12 md:p-0 block bg-charcoal-50 rounded-md z-20" // Increase the z-index when the mobile dropdown is open
+                  : "hidden md:block"
               }`}
             >
               <ul className="md:pt-4 md:pb-4 items-center justify-center md:flex flex-col md:flex-row">
-                {/* <li
-                  className={`text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-customblue-100 border-customblue-50 md:hover:text-customblue-50 md:hover:bg-transparent ${
-                    navbar ? "pb-6" : ""
-                  }`}
-                >
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
-                    About
-                  </Link>
-                </li>
-                <li
-                  className={`text-l text-white py-2 px-6 text-center  border-b-2 md:border-b-0 hover:bg-customblue-100 border-customblue-50 md:hover:text-customblue-50 md:hover:bg-transparent ${
-                    navbar ? "pb-6" : ""
-                  }`}
-                >
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
-                    Projects
-                  </Link>
-                </li>
-                <li
-                  className={`text-l text-white py-2 px-6 text-center  border-b-2 md:border-b-0 hover:bg-customblue-100  border-customblue-50  md:hover:text-customblue-50 md:hover:bg-transparent ${
-                    navbar ? "pb-6" : ""
-                  }`}
-                >
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
-                    Contact
-                  </Link>
-                </li> */}
+                {/* ... */}
                 <li className="text-l text-center bg-customblue-50 px-8 py-4 sm:rounded-none md:rounded-md hover:bg-customblue-250">
                   <a
                     className=""
