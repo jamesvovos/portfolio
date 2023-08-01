@@ -22,7 +22,7 @@ export default function Navbar() {
           <li>
             <a
               className="bg-customblue-50 px-4 py-3 rounded-md hover:bg-customblue-250"
-              href="https://drive.google.com/uc?export=download&id=1zX3mgKcYyP1l9mqTXPRjvjVDG2XfGjSO"
+              href="https://drive.google.com/uc?export=download&id=1o82i7lxASIbqMBOOAk7Sr0Bh4YsWeyIm"
               download={"jamesvovos-resume.pdf"}
             >
               Resume
