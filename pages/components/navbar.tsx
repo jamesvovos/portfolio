@@ -39,8 +39,10 @@ function NavBar() {
           </div>
           <div className="font-sourcecode">
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                navbar ? "p-8 md:p-0 block bg-charcoal-50 rounded-md" : "hidden"
+              className={`flex-1 justify-self-center md:pb-0 md:mt-0 ${
+                navbar
+                  ? "p-12 md:p-0 block bg-charcoal-50 rounded-md z-10"
+                  : "hidden"
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex flex-col md:flex-row">
