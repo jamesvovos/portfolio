@@ -9,10 +9,14 @@ function NavBar() {
   const router = useRouter();
   const isHomePage = router.pathname === "/";
 
+  const toggleNavbar = () => {
+    setNavbar(!navbar);
+  };
+
   return (
     <div className="mb-5 pb-20 md:mb-20 z-10">
       <nav className="w-full absolute pt-5 left-0 right-0 z-10 flex-auto">
-        <div className="justify-between px-4 mx-auto lg:max-w-10xl md:items-center md:flex md:px-8">
+        <div className="justify-between px-4 mx-auto lg:max-w-10xl md:items-center md:flex md:px-8 relative">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
@@ -30,14 +34,15 @@ function NavBar() {
               <div className="md:hidden">
                 <button
                   className="p-2 text-customblue-50 rounded-md outline-none focus:border-white focus:border"
-                  onClick={() => setNavbar(!navbar)}
+                  onClick={toggleNavbar}
+                  style={{ zIndex: 999 }} // Set a higher z-index for the mobile button
                 >
                   {navbar ? <GrClose size={24} /> : <FaBars size={24} />}
                 </button>
               </div>
             </div>
           </div>
-          <div className={`font-sourcecode ${navbar ? "z-20" : "z-20"}`}>
+          <div className={`font-sourcecode ${navbar ? "z-30" : "z-10"}`}>
             {/* Apply a higher z-index when the mobile dropdown is open */}
             <div
               className={`flex-1 justify-self-center md:pb-0 md:mt-0 ${
