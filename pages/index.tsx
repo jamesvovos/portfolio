@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
 
       <main className="bg-charcoal-50 px-10">
+      <Navbar />
         <section className="min-h-screen">
-          <Navbar />
           <Hero />
         </section>
 
