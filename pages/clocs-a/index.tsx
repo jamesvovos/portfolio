@@ -61,7 +61,7 @@ export default function Project() {
             />
             <ProjectTechStack techStack={techStack} />
             <ShowcaseSection
-              title="BACKSTORY"
+              title="CONTEXT"
               desc="The east coast of Australia has $200 billion in upcoming infrastructure projects over the next decade, mainly in major cities, relying heavily on truck logistics. Ensuring safe truck movements, particularly in urban areas with vulnerable road users, is a key concern for project success. To address this, stakeholders from government, construction, transport, and road safety groups are collaborating on the CLOCS-A program. It follows the Safe System approach, prioritizing road safety and preventing fatalities and severe injuries. The program focuses on designated safe logistics routes for trucks moving between construction sites and supply/offload locations. This proactive approach aims to enhance work-related road safety and support the successful delivery of construction projects."
               image={truck}
             />

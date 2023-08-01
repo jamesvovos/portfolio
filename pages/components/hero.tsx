@@ -18,7 +18,7 @@ export default function Hero({}: Props) {
     delaySpeed: 2000,
   });
   return (
-    <div className="text-center min-h-screen">
+    <div className="text-center min-h-screen py-10">
       <Particle />
       <h2 className="relative text-5xl py-2 text-customblue-50 font font-medium">
         James Vovos

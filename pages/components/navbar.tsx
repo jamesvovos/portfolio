@@ -14,9 +14,10 @@ function NavBar() {
   };
 
   return (
-    <div className="mb-5 pb-20 md:mb-20 z-10">
-      <nav className="w-full absolute pt-5 left-0 right-0 z-10 flex-auto">
-        <div className="justify-between px-4 mx-auto lg:max-w-10xl md:items-center md:flex md:px-8 relative">
+    <div className="lg:py-0 sm: pt-10">
+      {/* <nav className="w-full absolute pt-5 left-0 right-0 z-10 flex-auto"> */}
+      <nav className="relative sm:pb-10 mb-0 z-10">
+        <div className="justify-between px-2 mx-auto lg:max-w-10xl md:items-center md:flex md:px-8 relative">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
@@ -33,7 +34,7 @@ function NavBar() {
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
-                  className="p-2 text-customblue-50 rounded-md outline-none focus:border-white focus:border"
+                  className="text-customblue-50 rounded-md outline-none focus:border-white focus:border"
                   onClick={toggleNavbar}
                   style={{ zIndex: 999 }} // Set a higher z-index for the mobile button
                 >
@@ -47,7 +48,7 @@ function NavBar() {
             <div
               className={`flex-1 justify-self-center md:pb-0 md:mt-0 ${
                 navbar
-                  ? "p-height md:p-0 block bg-black rounded-md z-30" // Increase the z-index when the mobile dropdown is open
+                  ? "p-height md:p-0 block bg-slate-900 border-2 border-customblue-50 rounded-md z-30" // Increase the z-index when the mobile dropdown is open
                   : "hidden md:block"
               }`}
             >

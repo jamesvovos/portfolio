@@ -9,7 +9,7 @@ type ProjectBannerProps = {
 
 export default function ProjectBanner(props: ProjectBannerProps) {
   return (
-    <div className="text-left container mx-auto flex-wrap grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
+    <div className="text-left container mx-auto flex-wrap grid grid-cols-1 md:grid-cols-2 gap-4 my-5 md:my-10">
       {/* On small and medium screens (col-span-1) */}
       <div className="md:col-span-1">
         <h2 className="relative text-4xl md:text-6xl lg:text-8xl py-2 text-customblue-50 font-poppinsbold">

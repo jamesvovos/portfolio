@@ -29,7 +29,7 @@ const data = [
     desc: "Procedurally generate game assets using artificial intelligence, custom pipelines and natural language processing (NLP). Create game assets from simple prompts such as a game description and theme. Utilises dreambooth research from Google and custom trained deep learning text-to-image generation models.",
     tech1: "Python",
     tech2: "LangChain",
-    tech3: "Streamlit",
+    tech3: "",
   },
   {
     id: 3,
