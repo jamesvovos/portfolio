@@ -41,7 +41,7 @@ function NavBar() {
             <div
               className={`flex-1 justify-self-center md:pb-0 md:mt-0 ${
                 navbar
-                  ? "p-12 md:p-0 block bg-charcoal-50 rounded-md z-10"
+                  ? "p-12 md:p-0 block bg-purple-500 rounded-md z-10"
                   : "hidden md:block" // Remove the "hidden" class here
               }`}
             >
