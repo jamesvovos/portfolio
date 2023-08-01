@@ -96,7 +96,7 @@ export default function Project() {
               image={promptuml}
             />
             <InfoSectionPrimary
-              title="TEXT-TO-IMAGE GENERATION"
+              title="TEXT-TO-IMAGE GEN"
               desc="Our architecture enables the ability to generate game art alongside text-based game assets. This
               could range from: 2D textures, isometric game worlds, game items or pickups, and more. I utilised new research from Google to train my own text-to-image generation model with my own custom data set. To do this, I leveraged Leonardo AI. Leonardo AI provided
               access to custom fine-tuned models that were trained on more specific data, building on top of

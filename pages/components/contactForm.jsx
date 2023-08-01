@@ -23,7 +23,7 @@ export default function ContactForm() {
     <section id="contact" className="contact section container mx-auto pt-20">
       <div className="sectionTitle font-sourcecode">
         <span className="titleSymbol">.</span>
-        <h5 className="titleText">contactJames</h5>
+        <h5 className="titleText">contact</h5>
         <span className="titleSymbol">()</span>
       </div>
 
