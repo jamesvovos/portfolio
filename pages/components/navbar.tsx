@@ -37,24 +37,30 @@ function NavBar() {
               </div>
             </div>
           </div>
-          <div className={`font-sourcecode ${navbar ? "z-20" : "z-10"}`}>
+          <div className={`font-sourcecode ${navbar ? "z-20" : "z-20"}`}>
             {/* Apply a higher z-index when the mobile dropdown is open */}
             <div
               className={`flex-1 justify-self-center md:pb-0 md:mt-0 ${
                 navbar
-                  ? "p-12 md:p-0 block bg-charcoal-50 rounded-md z-20" // Increase the z-index when the mobile dropdown is open
+                  ? "p-height md:p-0 block bg-charcoal-50 rounded-md z-30" // Increase the z-index when the mobile dropdown is open
                   : "hidden md:block"
               }`}
             >
-              <ul className="md:pt-4 md:pb-4 items-center justify-center md:flex flex-col md:flex-row">
+              <ul className="md:pt-4 md:pb-4 items-center justify-center md:flex flex-col md:flex-row z-30">
                 {/* ... */}
-                <li className="text-l text-center bg-customblue-50 px-8 py-4 sm:rounded-none md:rounded-md hover:bg-customblue-250">
+                <li
+                  className={`text-l text-center bg-customblue-50 px-8 py-4 md:rounded-md hover:bg-customblue-250 ${
+                    navbar
+                      ? "h-20 sm:rounded-none bg-transparent hover:text-customblue-250 hover:bg-transparent text-l font-bold underline" // Increase the z-index when the mobile dropdown is open
+                      : "hidden md:block"
+                  }`}
+                >
                   <a
-                    className=""
+                    className="z-50"
                     href="https://drive.google.com/uc?export=download&id=1o82i7lxASIbqMBOOAk7Sr0Bh4YsWeyIm"
                     download={"jamesvovos-resume.pdf"}
                   >
-                    Resume
+                    Download Resume
                   </a>
                 </li>
               </ul>
