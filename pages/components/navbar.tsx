@@ -42,7 +42,7 @@ function NavBar() {
             <div
               className={`flex-1 justify-self-center md:pb-0 md:mt-0 ${
                 navbar
-                  ? "p-height md:p-0 block bg-charcoal-50 rounded-md z-30" // Increase the z-index when the mobile dropdown is open
+                  ? "p-height md:p-0 block bg-black rounded-md z-30" // Increase the z-index when the mobile dropdown is open
                   : "hidden md:block"
               }`}
             >
@@ -51,7 +51,7 @@ function NavBar() {
                 <li
                   className={`text-l text-center bg-customblue-50 px-8 py-4 md:rounded-md hover:bg-customblue-250 ${
                     navbar
-                      ? "h-20 sm:rounded-none bg-transparent hover:text-customblue-250 hover:bg-transparent text-l font-bold underline" // Increase the z-index when the mobile dropdown is open
+                      ? "h-screen sm:rounded-none bg-transparent text-customblue-50 hover:text-customblue-250 hover:bg-transparent text-xl font-bold underline center" // Increase the z-index when the mobile dropdown is open
                       : "hidden md:block"
                   }`}
                 >
