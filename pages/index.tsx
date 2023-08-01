@@ -18,9 +18,7 @@ export default function Home() {
       <main className="bg-charcoal-50 px-10">
         <section className="min-h-screen">
           <Navbar />
-          <div>
-            <Hero />
-          </div>
+          <Hero />
         </section>
 
         {/* Change these to only be pages (refactor components to only be components later) */}

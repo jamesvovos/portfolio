@@ -14,7 +14,11 @@ function NavBar() {
   };
 
   return (
-    <div className="mb-5 pb-20 md:mb-20 z-10">
+    <div
+      className={`mb-5 pb-20 md:mb-20 z-50 ${
+        isHomePage ? "relative" : "absolute"
+      }`}
+    >
       <nav className="w-full absolute pt-5 left-0 right-0 z-10 flex-auto">
         <div className="justify-between px-4 mx-auto lg:max-w-10xl md:items-center md:flex md:px-8 relative">
           <div>
