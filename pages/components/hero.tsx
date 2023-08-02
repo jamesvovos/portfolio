@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import profile from "../../public/assets/images/profile.jpg";
+import profile from "../../public/assets/images/profile.png";
 import Particle from "./particle";
 import TechStack from "../components/techStack";
 
