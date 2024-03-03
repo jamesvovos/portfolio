@@ -63,7 +63,7 @@ function NavBar() {
                 >
                   <a
                     className="z-50"
-                    href="https://drive.google.com/uc?export=download&id=1b_gAIfR79AfP6cwP3nAmfI6s0fBtPDcb"
+                    href="https://drive.google.com/uc?export=download&id=1mOnvMrmtsGPJzyrdF8LQ8O4jJbP3nL0E"
                     download={"jamesvovos-resume.pdf"}
                   >
                     Download Resume
