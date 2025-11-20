@@ -33,7 +33,7 @@ export function Projects() {
           </Button>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid xl:grid-cols-2 gap-6">
           {projects.map((project) => (
             <Card 
               key={project.title} 
