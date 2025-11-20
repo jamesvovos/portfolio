@@ -19,7 +19,7 @@ export function Hero() {
 
         <div className="flex items-start gap-6 mb-6">
           <h1 className="text-4xl md:text-5xl font-semibold text-balance leading-[1.1]">
-            Hey, I'm James.
+            Hey, I'm <span className='text-sky-500'>James</span>
             <br />
             I'm a Software Engineer based in Melbourne, Australia.
           </h1>
