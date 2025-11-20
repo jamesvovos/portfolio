@@ -93,8 +93,8 @@ export function Skills() {
                   rel="noopener noreferrer"
                   className="group flex items-center gap-4"
                 >
-                  {/* Icon container – closer to screenshot */}
-                  <div className="relative flex h-16 w-16 items-center justify-center rounded-md border border-white/30 bg-zinc-900/60 shadow-[0_18px_45px_rgba(0,0,0,0.65)] transition-colors group-hover:border-white border-dashed">
+                  {/* Icon Container */}
+                  <div className="relative flex h-16 w-16 items-center justify-center rounded-md border border-foreground/30 bg-card/60 group-hover:border-foreground transition-colors border-dashed">
                     <Image
                       src={skill.image}
                       alt={skill.name}
@@ -106,10 +106,10 @@ export function Skills() {
 
                   {/* Text */}
                   <div className="leading-tight">
-                    <h3 className="mb-1 text-[15px] md:text-[16px] font-medium text-zinc-100 transition-colors group-hover:text-white">
+                    <h3 className="mb-1 text-[15px] md:text-[16px] font-medium text-foreground">
                       {skill.name}
                     </h3>
-                    <p className="text-[12px] md:text-xs text-zinc-500">
+                    <p className="text-[12px] md:text-xs text-muted-foreground/70">
                       {skill.category}
                     </p>
                   </div>
