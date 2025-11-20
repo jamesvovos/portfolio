@@ -1,5 +1,11 @@
 import Image from 'next/image'
 import { Separator } from '@/components//ui/separator'
+import {
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+  TooltipProvider,
+} from "@/components/ui/tooltip"
 import { Github, Linkedin, Mail } from 'lucide-react'
 
 export function Hero() {
@@ -34,17 +40,48 @@ export function Hero() {
         </p>
 
         {/* Social Links */}
-        <div className="flex items-center gap-4 text-muted-foreground">
-          <a href="https://github.com/jamesvovos" target="_blank" className="hover:text-foreground transition-colors">
-            <Github className="w-6 h-6" />
-          </a>
-          <a href="https://linkedin.com/in/jamesvovos" target="_blank" className="hover:text-foreground transition-colors">
-            <Linkedin className="w-6 h-6" />
-          </a>
-          <a href="mailto:james.vovos@gmail.com" className="hover:text-foreground transition-colors">
-            <Mail className="w-6 h-6" />
-          </a>
-        </div>
+        <TooltipProvider>
+          <div className="flex items-center gap-4 text-muted-foreground">
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <a
+                  href="https://github.com/jamesvovos"
+                  target="_blank"
+                  className="hover:text-foreground transition-colors"
+                >
+                  <Github className="w-6 h-6" />
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>GitHub</TooltipContent>
+            </Tooltip>
+
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <a
+                  href="https://linkedin.com/in/jamesvovos"
+                  target="_blank"
+                  className="hover:text-foreground transition-colors"
+                >
+                  <Linkedin className="w-6 h-6" />
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>LinkedIn</TooltipContent>
+            </Tooltip>
+
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <a
+                  href="mailto:james.vovos@gmail.com"
+                  className="hover:text-foreground transition-colors"
+                >
+                  <Mail className="w-6 h-6" />
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>Email</TooltipContent>
+            </Tooltip>
+          </div>
+        </TooltipProvider>
+
 
         <Separator className="mt-8" />
       </div>
