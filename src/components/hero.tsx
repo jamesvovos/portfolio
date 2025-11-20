@@ -7,7 +7,7 @@ export function Hero() {
       <div className="max-w-6xl mx-auto">
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border bg-card text-sm mb-8">
           <div className="w-2 h-2 rounded-full bg-green-500" />
-          Available for Work
+          Available for Work • Australia
         </div>
         
         <h1 className="text-4xl md:text-5xl font-semibold mb-6 text-balance leading-[1.1]">
