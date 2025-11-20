@@ -132,13 +132,15 @@ function ProjectCard({ project }: ProjectCardProps) {
 
 export function Projects() {
   return (
-    <section id="projects" className="max-w-6xl mx-auto">
-      <h2 className="text-3xl font-semibold mb-12">Recent Projects</h2>
+    <section id="projects" className="py-8 px-6 md:px-12 lg:px-20">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl font-semibold mb-12">Recent Projects</h2>
 
-      <div className="grid gap-6 md:grid-cols-1">
-        {projects.map((project) => (
-          <ProjectCard key={project.title} project={project} />
-        ))}
+        <div className="grid gap-6 md:grid-cols-1">
+          {projects.map((project) => (
+            <ProjectCard key={project.title} project={project} />
+          ))}
+        </div>
       </div>
     </section>
   );
