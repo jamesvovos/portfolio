@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
   },
   {
     name: 'David Nicolaides.',
-    role: 'Digital Lead at Scribii',
+    role: 'Digital Lead at Scriibi',
     content:
       'It was clear that James has a level of life experience that allows him to build professional and respectful relationships with a diverse range of people.  He was able to leverage this ability to motivate others and make others feel like their input was valued when working together.  James was able to manage his time and quickly identify ways to modify tasks to maintain the expected deliverable within the allowed time frame.  The ability to optimise for delivery time and the end users needs by adjusting the development process is a skill that is highly desirable in software development and James is able to do this at a level that is beyond the expected level. It was a pleasure to work with James and I know others in our team also shared this impression and had a high regard of his professional practice and genuine personality.',
     rating: 5,
